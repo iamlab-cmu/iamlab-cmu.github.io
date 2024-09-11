@@ -1,0 +1,119 @@
+.jumbotron-main {
+  color: white;
+  background-color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  height: 550px; /* Ensure the jumbotron has a height */
+  overflow: hidden; /* In case the image is larger than the container */
+}
+
+.lab-photo {
+  background: url("../img/iamlab_groupv2.png") no-repeat center center;
+  background-size: cover;
+  background-color: white;
+  min-height: 550px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;  /* This aligns the content to the bottom */
+  padding-bottom: 30px;  /* Add some padding at the bottom */
+}
+
+@media only screen and (max-width: 900px) {
+  .lab-photo {
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .lab-photo {
+    background-size: contain;
+    min-height: 300px;
+  }
+}
+
+.main-news {
+  height: 500px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02)
+}
+
+.main-highlights {
+  height: 500px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 75px;
+}
+
+.footer-logo.col-lg-4 {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  height: auto !important;
+  min-height: 75px !important;
+}
+
+.iam-logo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iam-lab-logo {
+  max-width: 175%;
+  max-height: 175%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.right-logos-container {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.cmu-logo {
+  max-width: 80px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  margin-right: 10px !important;
+}
+
+.ri-cmu-logo {
+  max-width: 240px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+.member-col {
+  height: 350px;
+}
+
+.member-col img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 250px;
+  min-height: 250px;
+  height: auto;
+  width: auto;
+}
+
+.video_embed {
+  margin-top: 5px;
+}
+
+

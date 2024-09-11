@@ -1,0 +1,121 @@
+# When making a new entry, copy the commented out entry, paste it, uncomment, and fill out the fields.
+# If any of the fields are confusing look at previous examples for guidance.
+#- abs: null
+#  authors: null
+#  award: null
+#  bib: null
+#  img: null
+#  links: {}
+#  short_id: null
+#  site: null
+#  title: null
+#  venue: null
+#  video_embed: null
+#  tags: null
+# Current tags for research areas, see the research areas page for more details:
+# deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
+
+
+- abs: "Dexterous robotic manipulation remains a challenging domain due to its strict demands for precision and robustness on both hardware and software. While dexterous robotic hands have demonstrated remarkable capabilities in complex tasks, efficiently learning adaptive control policies for hands still presents a significant hurdle given the high dimensionalities of hands and tasks. To bridge this gap, we propose Tilde, an imitation learning-based in-hand manipulation system on a dexterous DeltaHand. It leverages 1) a low-cost, configurable, simple-to-control, soft dexterous robotic hand, DeltaHand, 2) a user-friendly, precise, real-time teleoperation interface, TeleHand, and 3) an efficient and generalizable imitation learning approach with diffusion policies. Our proposed TeleHand has a kinematic twin design to the DeltaHand that enables precise one-to-one joint control of the DeltaHand during teleoperation. This facilitates efficient high-quality data collection of human demonstrations in the real world. To evaluate the effectiveness of our system, we demonstrate the fully autonomous closed-loop deployment of diffusion policies learned from demonstrations across seven dexterous manipulation tasks with an average 90% success rate."
+  authors: Zilin Si*, Kevin Lee Zhang*, Zeynep Temel, Oliver Kroemer
+  award: <award>Best paper award at 2nd Workshop on Dexterous Manipulation -- Design, Perception and Control, RSS 2024</award>
+  bib: >
+    @inproceedings{si2024tilde,
+    title={Tilde: Teleoperation for Dexterous In-Hand Manipulation Learning with a DeltaHand},
+    author={Si, Zilin and Zhang, Kevin Lee and Temel, Zeynep and Kroemer, Oliver},
+    journal={arXiv preprint arXiv:2405.18804},
+    year={2024}
+    }
+  img: ../pics/tilde.png
+  links: 
+      '[arXiv]': https://arxiv.org/pdf/2405.18804
+  short_id: tilde2024
+  site: https://sites.google.com/view/tilde-
+  title: "Tilde: Teleoperation for Dexterous In-Hand Manipulation Learning with a DeltaHand"
+  venue: "Robotics, Science, and Systems (RSS), 2024"
+  video_embed: null
+  tags: null
+
+- abs: "There is growing interest in automating agricultural tasks that require intricate and precise interaction with specialty crops, such as trees and vines. However, developing robotic solutions for crop manipulation remains a difficult challenge due to complexities involved in modeling their deformable behavior. In this study, we present a framework for learning the deformation behavior of tree-like crops under contact interaction. Our proposed method involves encoding the state of a spring-damper modeled tree crop as a graph. This representation allows us to employ graph networks to learn both a forward model for predicting resulting deformations, and a contact policy for inferring actions to manipulate tree crops. We conduct a comprehensive set of experiments in a simulated environment and demonstrate generalizability of our method on previously unseen trees."
+  authors: Chung Hee Kim, Moonyoung Lee, Oliver Kroemer, George Kantor
+  award: null
+  bib: >
+    @inproceedings{kim2024towards,
+    title={Towards robotic tree manipulation: Leveraging graph representations},
+    author={Kim, Chung Hee and Lee, Moonyoung and Kroemer, Oliver and Kantor, George},
+    booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+    pages={11884--11890},
+    year={2024},
+    organization={IEEE}
+    }
+  img: ../pics/treegnn.gif
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2311.07479
+  short_id: treegnn2024
+  site: https://kantor-lab.github.io/tree_gnn/
+  title: "Towards robotic tree manipulation: Leveraging graph representations"
+  venue: "International Conference on Robotics and Automation (ICRA), 2024"
+  video_embed: <iframe width="1280" height="720" src="https://www.youtube.com/embed/FGtdYFe0W9A" title="Towards Robotic Tree Manipulation, Leveraging Graph Representations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags: null
+
+- abs: "Monitoring crop nutrients can aid farmers in optimizing fertilizer use. Many existing robots rely on vision-based phenotyping, however, which can only indirectly estimate nutrient deficiencies once crops have undergone visible color changes. We present a contact-based phenotyping robot platform that can directly insert nitrate sensors into cornstalks to proactively monitor macronutrient levels in crops. This task is challenging because inserting such sensors requires sub-centimeter precision in an environment which contains high levels of clutter, lighting variation, and occlusion. To address these challenges, we develop a robust perception-action pipeline to grasp stalks, and create a custom robot gripper which mechanically aligns the sensor before inserting it into the stalk. Through experimental validation on 48 unique stalks in a cornfield in Iowa, we demonstrate our platform's capability of detecting a stalk with 94 success"
+  authors: Moonyoung Lee, Aaron Berger, Dominic Guri, Kevin Zhang, Lisa Coffey, George Kantor, Oliver Kroemer
+  award: null
+  bib: >
+    @inproceedings{lee2024towards,
+    title={Towards Autonomous Crop Monitoring: Inserting Sensors in Cluttered Environments},
+    author={Lee, Moonyoung and Berger, Aaron and Guri, Dominic and Zhang, Kevin and Coffey, Lisa and Kantor, George and Kroemer, Oliver},
+    journal={IEEE Robotics and Automation Letters},
+    year={2024},
+    publisher={IEEE}
+    }
+  img: ../pics/cornbot.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2311.03697
+  short_id: cornbot2024
+  site: https://kantor-lab.github.io/cornbot/
+  title: "Towards Autonomous Crop Monitoring: Inserting Sensors in Cluttered Environments"
+  venue: "Robotics and Automation Letters(RA-L), 2024"
+  video_embed: <iframe width="1280" height="720" src="https://www.youtube.com/embed/Xk6A5zpNspQ" title="CMU Robotics | Towards Autonomous Crop Monitoring" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags: null
+
+- abs: "Large, high-capacity models trained on diverse datasets have shown remarkable successes on efficiently tackling downstream applications. In domains from NLP to Computer Vision, this has led to a consolidation of pretrained models, with general pretrained backbones serving as a starting point for many applications. Can such a consolidation happen in robotics? Conventionally, robotic learning methods train a separate model for every application, every robot, and even every environment. Can we instead train “generalist” X-robot policy that can be adapted efficiently to new robots, tasks, and environments? In this paper, we provide datasets in standardized data formats and models to make it possible to explore this possibility in the context of robotic manipulation, alongside experimental results that provide an example of effective X-robot policies. We assemble a dataset from 22 different robots collected through a collaboration between 21 institutions, demonstrating 527 skills (160266 tasks). We show that a high-capacity model trained on this data, which we call RT-X, exhibits positive transfer and improves the capabilities of multiple robots by leveraging experience from other platforms."
+  authors: Abby O’Neill, Abdul Rehman, Abhiram Maddukuri, Abhishek Gupta, Abhishek Padalkar, Abraham Lee, Acorn Pooley, Agrim Gupta, Ajay Mandlekar, Ajinkya Jain, Albert Tung, Alex Bewley, Alex Herzog, Alex Irpan, Alexander Khazatsky, Anant Rai, Anchit Gupta, Andrew Wang, Anikait Singh, Animesh Garg, Aniruddha Kembhavi, Annie Xie, Anthony Brohan, Antonin Raffin, Archit Sharma, Arefeh Yavary, Arhan Jain, Ashwin Balakrishna, Ayzaan Wahid, Ben Burgess-Limerick, Beomjoon Kim, Bernhard Schölkopf, Blake Wulfe, Brian Ichter, Cewu Lu, Charles Xu, Charlotte Le, Chelsea Finn, Chen Wang, Chenfeng Xu, Cheng Chi, Chenguang Huang, Christine Chan, Christopher Agia, Chuer Pan, Chuyuan Fu, Coline Devin, Danfei Xu, Daniel Morton, Danny Driess, Daphne Chen, Deepak Pathak, Dhruv Shah, Dieter Büchler, Dinesh Jayaraman, Dmitry Kalashnikov, Dorsa Sadigh, Edward Johns, Ethan Foster, Fangchen Liu, Federico Ceola, Fei Xia, Feiyu Zhao, Freek Stulp, Gaoyue Zhou, Gaurav S Sukhatme, Gautam Salhotra, Ge Yan, Gilbert Feng, Giulio Schiavi, Glen Berseth, Gregory Kahn, Guanzhi Wang, Hao Su, Hao-Shu Fang, Haochen Shi, Henghui Bao, Heni Ben Amor, Henrik I Christensen, Hiroki Furuta, Homer Walke, Hongjie Fang, Huy Ha, Igor Mordatch, Ilija Radosavovic, Isabel Leal, Jacky Liang, Jad Abou-Chakra, Jaehyung Kim, Jaimyn Drake, Jan Peters, Jan Schneider, Jasmine Hsu, Jeannette Bohg, Jeffrey Bingham, Jeffrey Wu, Jensen Gao, Jiaheng Hu, Jiajun Wu, Jialin Wu, Jiankai Sun, Jianlan Luo, Jiayuan Gu, Jie Tan, Jihoon Oh, Jimmy Wu, Jingpei Lu, Jingyun Yang, Jitendra Malik, João Silvério, Joey Hejna, Jonathan Booher, Jonathan Tompson, Jonathan Yang, Jordi Salvador, Joseph J Lim, Junhyek Han, Kaiyuan Wang, Kanishka Rao, Karl Pertsch, Karol Hausman, Keegan Go, Keerthana Gopalakrishnan, Ken Goldberg, Kendra Byrne, Kenneth Oslund, Kento Kawaharazuka, Kevin Black, Kevin Lin, Kevin Zhang, Kiana Ehsani, Kiran Lekkala, Kirsty Ellis, Krishan Rana, Krishnan Srinivasan, Kuan Fang, Kunal Pratap Singh, Kuo-Hao Zeng, Kyle Hatch, Kyle Hsu, Laurent Itti, Lawrence Yunliang Chen, Lerrel Pinto, Li Fei-Fei, Liam Tan, Linxi Jim Fan, Lionel Ott, Lisa Lee, Luca Weihs, Magnum Chen
+  award: <award>Best Paper at ICRA2024</award> 
+  bib: >
+    @inproceedings{padalkar2023open,
+    title={Open x-embodiment: Robotic learning datasets and rt-x models},
+    author={Padalkar, Abhishek and Pooley, Acorn and Jain, Ajinkya and Bewley, Alex and Herzog, Alex and Irpan, Alex and Khazatsky, Alexander and Rai, Anant and Singh, Anikait and Brohan, Anthony and others},
+    journal={https://arxiv.org/abs/2310.08864},
+    year={2024}
+    }
+  img: ../pics/rtx.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2311.03697
+  short_id: rtx2024
+  site: https://robotics-transformer-x.github.io./
+  title: "Open X-Embodiment: Robotic Learning Datasets and RT-X Models"
+  venue: "International Conference on Robotics and Automation (ICRA), 2024"
+  video_embed: null
+
+- abs: "Dexterous robotic manipulation in unstructured environments can aid in everyday tasks such as cleaning and caretaking. Anthropomorphic robotic hands are highly dexterous and theoretically well-suited for working in human domains, but their complex designs and dynamics often make them difficult to control. By contrast, parallel-jaw grippers are easy to control and are used extensively in industrial applications, but they lack the dexterity for various kinds of grasps and in-hand manipulations. In this work, we present DELTAHANDS, a synergistic dexterous hand framework with Delta robots. The DELTAHANDS are soft, easy to reconfigure, simple to manufacture with low-cost off-the-shelf materials, and possess high degrees of freedom that can be easily controlled. DELTAHANDS' dexterity can be adjusted for different applications by leveraging actuation synergies, which can further reduce the control complexity, overall cost, and energy consumption. We characterize the Delta robots' kinematics accuracy, force profiles, and workspace range to assist with hand design. Finally, we evaluate the versatility of DELTAHANDS by grasping a diverse set of objects and by using teleoperation to complete three dexterous manipulation tasks: cloth folding, cap opening, and cable arrangement."
+  authors: Zilin Si, Kevin Lee Zhang, Oliver Kroemer, Zeynep Temel
+  award: null
+  bib: >
+    @article{si2024deltahands,
+      title={DELTAHANDS: A Synergistic Dexterous Hand Framework Based on Delta Robots},
+      author={Si, Zilin and Zhang, Kevin and Kroemer, Oliver and Temel, F Zeynep},
+      journal={IEEE Robotics and Automation Letters},
+      year={2024},
+      publisher={IEEE}
+    }
+  img: ../pics/DeltaHands.png
+  links: 
+      '[arXiv]': https://arxiv.org/pdf/2310.05266
+  short_id: deltahand2024
+  site: https://sites.google.com/view/deltahands/
+  title: "DELTAHANDS: A Synergistic Dexterous Hand Framework Based on Delta Robots"
+  venue: "IEEE Robotics and Automation Letters, 2024"
+  video_embed: null
+
+  

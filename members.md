@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab members
+title: Lab Members
 subtitle: 
 ---
 

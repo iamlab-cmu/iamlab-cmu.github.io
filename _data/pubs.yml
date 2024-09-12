@@ -231,6 +231,125 @@
   venue: "IEEE Transactions on Robotics, Dec 2020"
   video_embed: null
 
+- abs: "Tactile sensors are used in robot manipulation to reduce uncertainty regarding hand-object pose estimation. However, existing sensor technologies tend to be bulky and provide signals that are difficult to interpret into actionable changes. Here, we achieve wireless tactile sensing with soft and conformable magnetic stickers that can be easily placed on objects within the robot's workspace. We embed a small magnetometer within the robot's fingertip that can localize to a magnetic sticker with sub-mm accuracy and enable the robot to pick up objects in the same place, in the same way, every time. In addition, we utilize the soft magnets' ability to exhibit magnetic field changes upon contact forces. We demonstrate the localization and force-feedback features with a 7-DOF Franka arm on deformable tool use and a key insertion task for applications in home, medical, and food robotics. By increasing the reliability of interaction with common tools, this approach to object localization and force sensing can improve robot manipulation performance for delicate, high-precision tasks."
+  authors: Tess Hellebrekers, Kevin Zhang, Manuela Veloso, Oliver Kroemer, and Carmel Majidi
+  award: null
+  bib: >
+    @inproceedings{9341281,
+      author={Hellebrekers, Tess and Zhang, Kevin and Veloso, Manuela and Kroemer, Oliver and Majidi, Carmel},
+      booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+      title={Localization and Force-Feedback with Soft Magnetic Stickers for Precise Robot Manipulation}, 
+      year={2020},
+      volume={},
+      number={},
+      pages={8867-8874},
+      keywords={Location awareness;Magnetometers;Tools;Robot sensing systems;Soft magnetic materials;Task analysis;Robots},
+      doi={10.1109/IROS45743.2020.9341281}
+    }
+  img: ../pics/soft_magnetic_stickers.png
+  links: 
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2020/09/Localization_and_Force_Feedback_with_Passive_Soft_Magnets_for_Robotic_Manipulation.pdf
+      '[Video]': https://www.youtube.com/watch?v=Fnq6rEnEEHc
+  short_id: softmagneticstickers
+  site: https://tesshellebrekers.com/
+  title: "Localization and Force-Feedback with Soft Magnetic Stickers for Precise Robot Manipulation"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Oct 2020"
+  video_embed: null
+
+- abs: "Planners using accurate models can be effective for accomplishing manipulation tasks in the real world, but are typically highly specialized and require significant fine-tuning to be reliable. Meanwhile, learning is useful for adaptation, but can require a substantial amount of data collection. In this paper, we propose a method that improves the efficiency of sub-optimal planners with approximate but simple and fast models by switching to a model-free policy when unexpected transitions are observed. Unlike previous work, our method specifically addresses when the planner fails due to transition model error by patching with a local policy only where needed. First, we use a sub-optimal model-based planner to perform a task until model failure is detected. Next, we learn a local model-free policy from expert demonstrations to complete the task in regions where the model failed. To show the efficacy of our method, we perform experiments with a shape insertion puzzle and compare our results to both pure planning and imitation learning approaches. We then apply our method to a door opening task. Our experiments demonstrate that our patch-enhanced planner performs more reliably than pure planning and with lower overall sample complexity than pure imitation learning."
+  authors: Alex Lagrassa, Steven Lee, and Oliver Kroemer
+  award: null
+  bib: >
+    @inproceedings{9341475,
+      author={Lagrassa, Alex and Lee, Steven and Kroemer, Oliver},
+      booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+      title={Learning Skills to Patch Plans Based on Inaccurate Models}, 
+      year={2020},
+      volume={},
+      number={},
+      pages={9441-9448},
+      keywords={Adaptation models;Shape;Switches;Planning;Trajectory;Reliability;Task analysis},
+      doi={10.1109/IROS45743.2020.9341475}
+    }
+  img: ../pics/patch_plans.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2009.13732
+  short_id: patchplans
+  site: https://arxiv.org/abs/2009.13732
+  title: "Learning Skills to Patch Plans Based on Inaccurate Models"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Oct 2020"
+  video_embed: null
+
+- abs: "Training robotic policies in simulation suffers from the sim-to-real gap, as simulated dynamics can be different from real-world dynamics. Past works tackled this problem through domain randomization and online system-identification. The former is sensitive to the manually-specified training distribution of dynamics parameters and can result in behaviors that are overly conservative. The latter requires learning policies that concurrently perform the task and generate useful trajectories for system identification. In this work, we propose and analyze a framework for learning exploration policies that explicitly perform task-oriented exploration actions to identify task-relevant system parameters. These parameters are then used by model-based trajectory optimization algorithms to perform the task in the real world.  We instantiate the framework in simulation with the Linear Quadratic Regulator as well as in the real world with pouring and object dragging tasks. Experiments show that task-oriented exploration helps model-based policies adapt to systems with initially unknown parameters, and it leads to better task performance than task-agnostic exploration. See videos and supplementary materials at https://sites.google.com/view/task-oriented-exploration/"
+  authors: Jacky Liang, Saumya Saxena, and Oliver Kroemer
+  award: null
+  bib: >
+    @inproceedings{liang2020learning,
+      title={Learning Active Task-Oriented Exploration Policies for Bridging the Sim-to-Real Gap},
+      author={Liang, Jacky and Saxena, Saumya and Kroemer, Oliver},
+      booktitle={Robotics: Science and Systems},
+      year={2020}
+    }
+  img: ../pics/task_exploration.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2006.01952
+      '[Video]': https://www.youtube.com/watch?v=LKeJtlkdA0s
+  short_id: taskexploration
+  site: https://sites.google.com/view/task-oriented-exploration/
+  title: "Learning Active Task-Oriented Exploration Policies for Bridging the Sim-to-Real Gap"
+  venue: "Robotics: Science and Systems (RSS), July 2020"
+  video_embed: null
+
+- abs: "Tracking the pose of an object while it is being held and manipulated by a robot hand is difficult for vision-based methods due to significant occlusions. Prior works have explored using contact feedback and particle filters to localize in-hand objects. However, they have mostly focused on the static grasp setting and not when the object is in motion, as doing so requires modeling of complex contact dynamics. In this work, we propose using GPU-accelerated parallel robot simulations and derivative-free, sample-based optimizers to track in-hand object poses with contact feedback during manipulation. We use physics simulation as the forward model for robot-object interactions, and the algorithm jointly optimizes for the state and the parameters of the simulations, so they better match with those of the real world. Our method runs in real-time (30Hz) on a single GPU, and it achieves an average point cloud distance error of 6mm in simulation experiments and 13mm in the real-world ones."
+  authors: Jacky Liang, Ankur Handa, Karl Van Wyk, Viktor Makoviychuk, Oliver Kroemer, and Dieter Fox
+  award: null
+  bib: >
+    @inproceedings{9197117,
+      author={Liang, Jacky and Handa, Ankur and Wyk, Karl Van and Makoviychuk, Viktor and Kroemer, Oliver and Fox, Dieter},
+      booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
+      title={In-Hand Object Pose Tracking via Contact Feedback and GPU-Accelerated Robotic Simulation}, 
+      year={2020},
+      volume={},
+      number={},
+      pages={6203-6209},
+      keywords={Pose estimation;Robot sensing systems;Physics;Heuristic algorithms;Cost function},
+      doi={10.1109/ICRA40945.2020.9197117}
+    }
+  img: ../pics/inhand_pose.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2002.12160
+      '[Video]': https://www.youtube.com/watch?v=M3bzeOYt6fQ
+  short_id: inhandpose
+  site: https://sites.google.com/view/in-hand-object-pose-tracking/
+  title: "In-Hand Object Pose Tracking via Contact Feedback and GPU-Accelerated Robotic Simulation"
+  venue: "International Conference on Robotics and Automation (ICRA), May 2020"
+  video_embed: null
+
+- abs: "We present an approach for estimating the pose of an external camera with respect to a robot using a single RGB image of the robot. The image is processed by a deep neural network to detect 2D projections of keypoints (such as joints) associated with the robot. The network is trained entirely on simulated data using domain randomization to bridge the reality gap. Perspective-n-point (PnP) is then used to recover the camera extrinsics, assuming that the camera intrinsics and joint configuration of the robot manipulator are known. Unlike classic hand-eye calibration systems, our method does not require an off-line calibration step. Rather, it is capable of computing the camera extrinsics from a single frame, thus opening the possibility of on-line calibration. We show experimental results for three different robots and camera sensors, demonstrating that our approach is able to achieve accuracy with a single frame that is comparable to that of classic off-line hand-eye calibration using multiple frames. With additional frames from a static pose, accuracy improves even further. Code, datasets, and pretrained models for three widely-used robot manipulators are made available."
+  authors: Timothy E. Lee, Jonathan Tremblay, Thang To, Jia Cheng, Terry Mosier, Oliver Kroemer, Dieter Fox, and Stan Birchfield
+  award: null
+  bib: >
+    @inproceedings{9196596,
+      author={Lee, Timothy E. and Tremblay, Jonathan and To, Thang and Cheng, Jia and Mosier, Terry and Kroemer, Oliver and Fox, Dieter and Birchfield, Stan},
+      booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
+      title={Camera-to-Robot Pose Estimation from a Single Image}, 
+      year={2020},
+      volume={},
+      number={},
+      pages={9426-9432},
+      keywords={Cameras;Robot vision systems;Robot kinematics;Calibration;Two dimensional displays;Training},
+      doi={10.1109/ICRA40945.2020.9196596}
+    }
+  img: ../pics/dream.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/1911.09231
+      '[Video]': https://www.youtube.com/watch?v=O1qAFboFQ8A
+  short_id: dream
+  site: https://github.com/NVlabs/DREAM
+  title: "Camera-to-Robot Pose Estimation from a Single Image"
+  venue: "International Conference on Robotics and Automation (ICRA), May 2020"
+  video_embed: null
+
 - abs: "Soft tactile skins can provide an in-depth understanding of contact location and force through a soft and deformable interface. However, widespread implementation of soft robotic sensing skins remains limited due to non-scalable fabrication techniques, lack of customization, and complex integration requirements. In this work, we demonstrate magnetic composites fabricated with two different matrix materials, a silicone elastomer and urethane foam, that can be used as continuous tactile surfaces for single-point contact localization. Building upon previous work, we increased the sensing area from a 15 mm^2 grid to a 40 mm^2 continuous surface. Additionally, new preprocessing methods for the raw magnetic field data, in conjunction with the use of a neural network, enables rapid location and force estimation in free space. We report an average localization of 1 mm^3 for the silicone surface and 2 mm^3 for the urethane foam. Our approach to soft sensing skins addresses the need for tactile soft surfaces that are simple to fabricate and integrate, customizable in shape and material, and usable in both soft and hybrid robotic systems."
   authors: Tess Hellebrekers, Nadine Chang, Keene Chin, Michael J Ford, Oliver Kroemer, and Carmel Majidi
   award: null

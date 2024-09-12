@@ -16,7 +16,7 @@
 
 ## (Online) Adding a publication
 1. If you haven't done so already, create a new branch with a short description of the change when starting out your work. You can do so by clicking on `master` tab down button, click `view all branches`, and then click `new branch`.
-2. Upload the cover photo or gif of your research under `pics`. Commite changes to upload.
+2. Upload the cover photo or gif of your research under `pics`. Commit the changes to upload.
 3. The publications page is updated by updating `_data/pubs.yaml file`. `The publication.md` reads the data from the yaml file and displays it.
 4. Add an entry to `_data/pubs.yaml file`.
    1. Indentation matter in yml format, so pay careful attention to match the existing style EXACTLY. Especially when copying over Bibtex, make sure tab indentation is correctly aligned like existing items.

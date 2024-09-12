@@ -1,7 +1,25 @@
 ---
 layout: page
 title: Lab Members
-subtitle: 
+subtitle:
+
+carousels:
+  - images: 
+    - image: ../img/lab/lab_pic_7_7_2024.jpg
+    - image: ../img/lab/lab_pic_6_13_2024.jpg
+    - image: ../img/lab/lab_pic_3_21_2024.jpg
+    - image: ../img/lab/lab_pic_11_17_2023.jpg
+    - image: ../img/lab/lab_pic_7_11_2023.jpg
+    - image: ../img/lab/lab_pic_5_13_2023.jpg
+    - image: ../img/lab/lab_pic_5_12_2023.jpg
+    - image: ../img/lab/lab_pic_5_5_2023.jpg
+    - image: ../img/lab/lab_pic_11_16_2022.jpg
+    - image: ../img/lab/lab_pic_9_27_2022.jpg
+    - image: ../img/lab/lab_pic_6_25_2022.jpg
+    - image: ../img/lab/lab_pic_4_3_2021.jpg
+    - image: ../img/lab/lab_pic_9_14_2020.jpg
+    - image: ../img/lab/lab_pic_11_16_2019.jpg
+    - image: ../img/lab/lab_pic_5_1_2019.jpg 
 ---
 
 <style>
@@ -115,7 +133,7 @@ subtitle:
       (Now at Google Deepmind)
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/tabitha_lee.png" alt="Tabitha Lee" />
+      <img class="member-photo" src="../img/members/tabitha_lee.jpg" alt="Tabitha Lee" />
       <a class="member-name" href="https://www.andrew.cmu.edu/user/tel1/">Tabitha Lee</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/causal-robot-learning-for-manipulation/">Ph.D Thesis Jul. 2024</a>
       (Now at Lockheed Martin)
@@ -159,46 +177,5 @@ subtitle:
 - [Julian Zimmer](https://www.linkedin.com/in/jzimmer93) (Karlsruhe Institute of Technology Exchange Program Dec. 2018)
 
 
-<style>
-/* Added styles for the slideshow */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-.slideshow-image {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  display: none;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-.slideshow-image.active {
-  display: block;
-  opacity: 1;
-}
-</style>
+## IAM Fun
 
-## Some IAM Joyful Moments
-
-
-<div class="slideshow-container">
-  <img class="slideshow-image" src="../img/lab/lab_pic_11_16_2019.jpg" alt="Lab Photo 1">
-  <img class="slideshow-image" src="../img/lab/lab_pic_5_1_2019.jpg" alt="Lab Photo 2">
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const images = document.querySelectorAll('.slideshow-image');
-  let currentIndex = 0;
-
-  function nextSlide() {
-    images[currentIndex].classList.remove('active');
-    currentIndex = (currentIndex + 1) % images.length;
-    images[currentIndex].classList.add('active');
-  }
-
-  setInterval(nextSlide, 3000); // Change slide every 3 seconds
-});
-</script>

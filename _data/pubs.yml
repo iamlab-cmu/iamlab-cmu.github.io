@@ -55,7 +55,7 @@
   video_embed: null
   tags: null
 
-- abs: "Monitoring crop nutrients can aid farmers in optimizing fertilizer use. Many existing robots rely on vision-based phenotyping, however, which can only indirectly estimate nutrient deficiencies once crops have undergone visible color changes. We present a contact-based phenotyping robot platform that can directly insert nitrate sensors into cornstalks to proactively monitor macronutrient levels in crops. This task is challenging because inserting such sensors requires sub-centimeter precision in an environment which contains high levels of clutter, lighting variation, and occlusion. To address these challenges, we develop a robust perception-action pipeline to grasp stalks, and create a custom robot gripper which mechanically aligns the sensor before inserting it into the stalk. Through experimental validation on 48 unique stalks in a cornfield in Iowa, we demonstrate our platform's capability of detecting a stalk with 94 success"
+- abs: "Monitoring crop nutrients can aid farmers in optimizing fertilizer use. Many existing robots rely on vision-based phenotyping, however, which can only indirectly estimate nutrient deficiencies once crops have undergone visible color changes. We present a contact-based phenotyping robot platform that can directly insert nitrate sensors into cornstalks to proactively monitor macronutrient levels in crops. This task is challenging because inserting such sensors requires sub-centimeter precision in an environment which contains high levels of clutter, lighting variation, and occlusion. To address these challenges, we develop a robust perception-action pipeline to grasp stalks, and create a custom robot gripper which mechanically aligns the sensor before inserting it into the stalk. Through experimental validation on 48 unique stalks in a cornfield in Iowa, we demonstrate our platform's capability of detecting a stalk with 94% success."
   authors: Moonyoung Lee, Aaron Berger, Dominic Guri, Kevin Zhang, Lisa Coffey, George Kantor, and Oliver Kroemer
   award: null
   bib: >
@@ -92,7 +92,7 @@
   img: ../pics/tree_gnn.gif
   links: 
       '[arXiv]': https://arxiv.org/abs/2311.07479
-      '[Video]': https://www.youtube.com/watch?v=FGtdYFe0W9A
+      '[Video]': https://www.youtube.com/watch?v=vxpSC0S_IF8
   short_id: treegnn2024
   site: https://kantor-lab.github.io/tree_gnn/
   title: "Towards Robotic Tree Manipulation: Leveraging Graph Representations"
@@ -532,7 +532,7 @@
       '[Pdf]': https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aisy.201900025
       '[Video]': https://www.youtube.com/watch?v=9hNAf1YVsgY
   short_id: softmagneticskin
-  site: https://www.ri.cmu.edu/publications/soft-magnetic-skin-for-continuous-deformation-sensing/
+  site: https://tesshellebrekers.com/
   title: "Soft Magnetic Skin for Continuous Deformation Sensing"
   venue: "Advanced Intelligent Systems, July 2019"
   video_embed: null

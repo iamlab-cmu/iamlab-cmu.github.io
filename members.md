@@ -149,6 +149,7 @@ carousels:
 
 ### Masters Students
 - [Pat Callaghan](https://peej1818.github.io/) (MSR Jan. 2024, Now Ph.D at CMU)
+- [Sarvesh Patil](https://servo97.github.io/) (MSR May 2023, Now Ph.D at CMU)
 - [Xiaoyu (Erin) Zhang](https://erinzhang1998.github.io/) (MSCS May 2022, Now Ph.D at UIUC)
 - [Amrita (Ami) Sawhney](https://www.linkedin.com/in/ami-sawhney-72957692/) (MSR May 2021, Now at Blue Origin)
 - [Steven Lee](https://www.linkedin.com/in/steven-l-89695b129/) (MSR May 2021, Now at Aurora Flight Sciences)

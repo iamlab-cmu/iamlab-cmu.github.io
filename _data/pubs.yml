@@ -51,7 +51,7 @@
   short_id: tilde2024
   site: https://sites.google.com/view/tilde-
   title: "Tilde: Teleoperation for Dexterous In-Hand Manipulation Learning with a DeltaHand"
-  venue: "Robotics, Science, and Systems (RSS), July 2024"
+  venue: "Robotics: Science and Systems (RSS), July 2024"
   video_embed: null
   tags: null
 
@@ -231,8 +231,100 @@
   venue: "IEEE Transactions on Robotics, Dec 2020"
   video_embed: null
 
+- abs: "Soft tactile skins can provide an in-depth understanding of contact location and force through a soft and deformable interface. However, widespread implementation of soft robotic sensing skins remains limited due to non-scalable fabrication techniques, lack of customization, and complex integration requirements. In this work, we demonstrate magnetic composites fabricated with two different matrix materials, a silicone elastomer and urethane foam, that can be used as continuous tactile surfaces for single-point contact localization. Building upon previous work, we increased the sensing area from a 15 mm^2 grid to a 40 mm^2 continuous surface. Additionally, new preprocessing methods for the raw magnetic field data, in conjunction with the use of a neural network, enables rapid location and force estimation in free space. We report an average localization of 1 mm^3 for the silicone surface and 2 mm^3 for the urethane foam. Our approach to soft sensing skins addresses the need for tactile soft surfaces that are simple to fabricate and integrate, customizable in shape and material, and usable in both soft and hybrid robotic systems."
+  authors: Tess Hellebrekers, Nadine Chang, Keene Chin, Michael J Ford, Oliver Kroemer, and Carmel Majidi
+  award: null
+  bib: >
+    @article{9050905,
+      author={Hellebrekers, Tess and Chang, Nadine and Chin, Keene and Ford, Michael J. and Kroemer, Oliver and Majidi, Carmel},
+      journal={IEEE Robotics and Automation Letters}, 
+      title={Soft Magnetic Tactile Skin for Continuous Force and Location Estimation Using Neural Networks}, 
+      year={2020},
+      volume={5},
+      number={3},
+      pages={3892-3898},
+      keywords={Magnetometers;Soft magnetic materials;Skin;Robot sensing systems;Force;Magnetomechanical effects;Soft sensors and actuators;force and tactile sensing;soft robot materials and design},
+      doi={10.1109/LRA.2020.2983707}
+    }
+  img: ../pics/soft_tactile_skin.png
+  links: 
+      '[Pdf]': https://tesshellebrekers.com/wp-content/uploads/2020/10/Soft-Magnetic-Tactile-Skin-for-Continuous-Force-and-Location-Estimation-Using-Neural-Networks.pdf
+      '[Video]': https://www.youtube.com/watch?v=X4Mev-BUCqY
+  short_id: softtactileskin
+  site: https://tesshellebrekers.com/
+  title: "Soft Magnetic Tactile Skin for Continuous Force and Location Estimation Using Neural Networks"
+  venue: "IEEE Robotics and Automation Letters (RA-L), Mar 2020"
+  video_embed: null
+
+- abs: "State-of-the-art object grasping methods rely on depth sensing to plan robust grasps, but commercially available depth sensors fail to detect transparent and specular objects. To improve grasping performance on such objects, we introduce a method for learning a multi-modal perception model by bootstrapping from an existing uni-modal model. This transfer learning approach requires only a pre-existing uni-modal grasping model and paired multi-modal image data for training, foregoing the need for ground-truth grasp success labels nor real grasp attempts. Our experiments demonstrate that our approach is able to reliably grasp transparent and reflective objects."
+  authors: Thomas Weng, Amith Pallankize, Yimin Tang, Oliver Kroemer, and David Held
+  award: null
+  bib: >
+    @article{9001238,
+      author={Weng, Thomas and Pallankize, Amith and Tang, Yimin and Kroemer, Oliver and Held, David},
+      journal={IEEE Robotics and Automation Letters}, 
+      title={Multi-Modal Transfer Learning for Grasping Transparent and Specular Objects}, 
+      year={2020},
+      volume={5},
+      number={3},
+      pages={3791-3798},
+      keywords={Grasping;Robot sensing systems;Training;Robustness;Data models;Perception for grasping and manipulation;grasping;RGB-D perception},
+      doi={10.1109/LRA.2020.2974686}
+    }
+  img: ../pics/transparent_grasp.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2006.00028
+      '[Video]': https://www.youtube.com/watch?v=_Vf4NoY_jnA
+  short_id: transparentgrasp
+  site: https://sites.google.com/view/transparent-specular-grasping
+  title: "Multi-Modal Transfer Learning for Grasping Transparent and Specular Objects"
+  venue: "IEEE Robotics and Automation Letters (RA-L), Feb 2020"
+  video_embed: null
+
+- abs: "We propose a visual servoing framework for learning to improve grasps of objects. RGB and depth images from grasp attempts are collected using an automated data collection process. The data is then used to train a Grasp Quality Network (GQN) that predicts the outcome of grasps from visual information. A grasp optimization pipeline uses homography models with the trained network to optimize the grasp success rate. We evaluate and compare several algorithms for adjusting the current gripper pose based on the current observation from a gripper-mounted camera to perform visual servoing. Evaluations in both simulated and hardware environments show considerable improvement in grasp robustness with models trained using less than 30K grasp trials. Success rates for grasping novel objects unseen during training increased from 18.5% to 81.0% in simulation, and from 17.8% to 78.0% in the real world."
+  authors: Austin S. Wang, Wuming Zhang, Daniel Troniak, Jacky Liang, and Oliver Kroemer
+  award: null
+  bib: >
+    @conference{Wang-2019-118447,
+      author = {Austin S. Wang and Wuming Zhang and Daniel Troniak and Jacky Liang and Oliver Kroemer},
+      title = {Homography-Based Deep Visual Servoing Methods for Planar Grasps},
+      booktitle = {Proceedings of (IROS) IEEE/RSJ International Conference on Intelligent Robots and Systems},
+      year = {2019},
+      month = {November},
+      pages = {6570 - 6577},
+    }
+  img: ../pics/homography_servo.png
+  links: 
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2019/11/Efort_Grasping__IROS_2019.pdf
+  short_id: homographyservo
+  site: https://www.ri.cmu.edu/publications/homography-based-deep-visual-servoing-methods-for-planar-grasps/
+  title: "Homography-Based Deep Visual Servoing Methods for Planar Grasps"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Nov 2019"
+  video_embed: null
+
+- abs: "Tactile sensors have been increasingly used to support rigid robot grippers in object grasping and manipulation. However, rigid grippers are often limited in their ability to handle compliant, delicate, or irregularly shaped objects. In recent years, grippers made from soft and flexible materials have become increasingly popular for certain manipulation tasks, e.g., grasping, due to their ability to conform to the object shape without the need for precise control. Although promising, such soft robot grippers currently suffer from the lack of available sensing modalities. In this work, we introduce a soft and stretchable sensing skin and incorporate it into the two fingers of a shape-memory actuated soft gripper. The on-board sensing skin includes a 9-axis inertial measurement unit (IMU) and five discrete pressure sensors per finger. We use this sensorized soft gripper to study grasp success and stability of over 2585 grasps with various objects using several machine learning methods. Our experiments show that LSTMs were the most accurate predictors of grasp success and stability, compared to SVMs, FFNNs, and ST-HMP. We also evaluated the effects on performance of each sensor’s data, and the success rates for individual objects. The results show that the accelerometer data of the IMUs has the largest contribution to the overall grasp prediction, which we attribute to its ability to detect precise movements of the gripper during grasping."
+  authors: Julian Zimmer, Tess Hellebrekers, Tamim Asfour, Carmel Majidi,and Oliver Kroemer
+  award: null
+  bib: >
+    @conference{Zimmer-2019-118478,
+      author = {Julian Zimmer and Tess Hellebrekers and Tamim Asfour and Carmel Majidi and Oliver Kroemer},
+      title = {Predicting Grasp Success with a Soft Sensing Skin and Shape-Memory Actuated Gripper},
+      booktitle = {Proceedings of (IROS) IEEE/RSJ International Conference on Intelligent Robots and Systems},
+      year = {2019},
+      month = {November},
+      pages = {7120 - 7127},
+    }
+  img: ../pics/shape_memory_gripper.png
+  links: 
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2019/11/IROS19_2309_FI.pdf
+  short_id: shapememorygripper
+  site: https://www.ri.cmu.edu/publications/predicting-grasp-success-with-a-soft-sensing-skin-and-shape-memory-actuated-gripper/
+  title: "Predicting Grasp Success with a Soft Sensing Skin and Shape-Memory Actuated Gripper"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Nov 2019"
+  video_embed: null
+
 - abs: "We cast visual imitation as a visual correspondence problem. Our robotic agent is rewarded when its actions result in better matching of relative spatial configurations for corresponding visual entities detected in its workspace and the teacher’s demonstration. We build upon recent advances in Computer Vision, such as human finger keypoint detectors, object detectors trained on-the- fly with synthetic augmentations, and point detectors supervised by viewpoint changes and learn multiple visual entity detectors for each demonstration with- out human annotations or robot interactions. We empirically show that the pro- posed factorized visual representations of entities and their spatial arrangements drive successful imitation of a variety of manipulation skills within minutes, us- ing a single demonstration and without any environment instrumentation. It is robust to background clutter and can effectively generalize across environment variations between demonstrator and imitator, greatly outperforming unstructured non-factorized full-frame CNN encodings of previous works."
-  authors:  Maximilian Sieb*, Zhou Xian*, Audrey Huang, Oliver Kroemer, and Katerina Fragkiadaki
+  authors: Maximilian Sieb*, Zhou Xian*, Audrey Huang, Oliver Kroemer, and Katerina Fragkiadaki
   award: null
   bib: >
     @conference{Sieb-2019-118476,
@@ -254,7 +346,7 @@
   video_embed: null
 
 - abs: "Cutting is a common form of manipulation when working with divisible objects such as food, rope, or clay. Cooking in particular relies heavily on cutting to divide food items into desired shapes. However, cutting food is a challenging task due to the wide range of material properties exhibited by food items. Due to this variability, the same cutting motions cannot be used for all food items. Sensations from contact events, e.g., when placing the knife on the food item, will also vary depending on the material properties, and the robot will need to adapt accordingly. In this paper, we propose using vibrations and force-torque feedback from the interactions to adapt the slicing motions and monitor for contact events. The robot learns neural networks for performing each of these tasks and generalizing across different material properties. By adapting and monitoring the skill executions, the robot is able to reliably cut through more than 20 different types of food items and even detect whether certain food items are fresh or old."
-  authors:  Kevin Zhang, Mohit Sharma, Manuela Veloso, and Oliver Kroemer
+  authors: Kevin Zhang, Mohit Sharma, Manuela Veloso, and Oliver Kroemer
   award: null
   bib: >
     @conference{Zhang-2019-118480,
@@ -276,7 +368,7 @@
   video_embed: null
 
 - abs: "Precise robotic grasping is important for many industrial applications, such as assembly and palletizing, where the location of the object needs to be controlled and known. However, achieving precise grasps is challenging due to noise in sensing and control, as well as unknown object properties. We propose a method to plan robotic grasps that are both robust and precise by training two convolutional neural networks - one to predict the robustness of a grasp and another to predict a distribution of post-grasp object displacements. Our networks are trained with depth images in simulation on a dataset of over 1000 industrial parts and were successfully deployed on a real robot without having to be further fine-tuned. The proposed displacement estimator achieves a mean prediction errors of 0.68cm and 3.42deg on novel objects in real world experiments."
-  authors:  Jialiang Zhao, Jacky Liang, and Oliver Kroemer
+  authors: Jialiang Zhao, Jacky Liang, and Oliver Kroemer
   award: null
   bib: >
     @conference{Zhao-2019-116636,
@@ -341,6 +433,25 @@
   venue: "International Conference on Robotics and Automation (ICRA), May 2019"
   video_embed: null
 
+- abs: "In this work, we present an interaction-based approach to learn semantically rich representations for the task of slicing vegetables. Unlike previous approaches, we focus on object-centric representations and use auxiliary tasks to learn rich representations using a two-step process. First, we use simple auxiliary tasks, such as predicting the thickness of a cut slice, to learn an embedding space which captures object properties that are important for the task of slicing vegetables. In the second step, we use these learned latent embeddings to learn a forward model. Learning a forward model affords us to plan online in the latent embedding space and forces our model to improve its representations while performing the slicing task. To show the efficacy of our approach we perform experiments on two different vegetables: cucumbers and tomatoes. Our experimental evaluation shows that our method is able to capture important semantic properties for the slicing task, such as the thickness of the vegetable being cut. We further show that by using our learned forward model, we can plan for the task of vegetable slicing."
+  authors: Mohit Sharma, Kevin Zhang, and Oliver Kroemer
+  award: null
+  bib: >
+    @article{sharma2019learning,
+      title={Learning semantic embedding spaces for slicing vegetables},
+      author={Sharma, Mohit and Zhang, Kevin and Kroemer, Oliver},
+      journal={arXiv preprint arXiv:1904.00303},
+      year={2019}
+    }
+  img: ../pics/semantic_embedding.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/1904.00303
+  short_id: semanticembedding
+  site: https://arxiv.org/abs/1904.00303
+  title: "Learning Semantic Embedding Spaces for Slicing Vegetables"
+  venue: "arXiv, Mar 2019"
+  video_embed: null
+
 - abs: "Granular materials produce audio-frequency mechanical vibrations in air and structures when manipulated. These vibrations correlate with both the nature of the events and the intrinsic properties of the materials producing them. We therefore propose learning to use audio-frequency vibrations from contact events to estimate the flow and amount of granular materials during scooping and pouring tasks. We evaluated multiple deep and shallow learning frameworks on a dataset of 13,750 shaking and pouring samples across five different granular materials. Our results indicate that audio is an informative sensor modality for accurately estimating flow and amounts, with a mean RMSE of 2.8 g across the five materials for pouring. We also demonstrate how the learned networks can be used to pour a desired amount of material."
   authors: Samuel Clarke, Travers Rhodes, Christopher Atkeson, and Oliver Kroemer
   award: null
@@ -359,7 +470,7 @@
       '[Pdf]': http://proceedings.mlr.press/v87/clarke18a/clarke18a.pdf
       '[Video]': https://www.youtube.com/watch?v=rNrjvdOb2TA
   short_id: learningaudio
-  site: https://www.ri.cmu.edu/publications/learning-audio-feedback-for-estimating-amount-and-flow-of-granular-material/
+  site: https://github.com/iamlab-cmu/granularAudioCoRL2018
   title: "Learning Audio Feedback for Estimating Amount and Flow of Granular Material"
   venue: "Conference on Robot Learning (CoRL), Oct 2018"
   video_embed: null

@@ -141,7 +141,7 @@ carousels:
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/shivam_vats.jpg" alt="Shivam Vats" />
       <a class="member-name" href="https://shivamvats.com/">Shivam Vats</a>
-      <a class="member-name" href="https://www.ri.cmu.edu/publications/plan-to-learn-active-robot-learning-by-planning/">Ph.D Thesis Jul. 2024</a>
+      <a class="member-name" href="https://www.ri.cmu.edu/publications/plan-to-learn-active-robot-learning-by-planning/">Ph.D Thesis Aug. 2024</a>
       (Now at Brown)
     </div>
   </div>

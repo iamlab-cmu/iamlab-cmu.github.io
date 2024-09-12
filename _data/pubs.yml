@@ -16,7 +16,7 @@
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
 - abs: "Optimizing robotic action parameters is a significant challenge for manipulation tasks that demand high levels of precision and generalization. Using a model-based approach, the robot must quickly reason about the outcomes of different actions using a predictive model to find a set of parameters that will have the desired effect. The model may need to capture the behaviors of rigid and deformable objects, as well as objects of various shapes and sizes. Predictive models often need to trade-off speed for prediction accuracy and generalization. This paper proposes a framework that leverages the strengths of multiple predictive models, including analytical, learned, and simulation-based models, to enhance the efficiency and accuracy of action parameter optimization. Our approach uses Model Deviation Estimators (MDEs) to determine the most suitable predictive model for any given state-action parameters, allowing the robot to select models to make fast and precise predictions. We extend the MDE framework by not only learning sim-to-real MDEs, but also sim-to-sim MDEs. Our experiments show that these sim-to-sim MDEs provide significantly faster parameter optimization as well as a basis for efficiently learning sim-to-real MDEs through finetuning. The ease of collecting sim-to-sim training data also allows the robot to learn MDEs based directly on visual inputs and local material properties."
-  authors: M. Yunus Seker, Oliver Kroemer
+  authors: M. Yunus Seker and Oliver Kroemer
   award: null
   bib: >
     @inproceedings{seker2024leveragingsimulationbasedmodelpreconditions,
@@ -25,7 +25,7 @@
       year={2024},
       journal={arXiv preprint arXiv:2403.11313},
     }
-  img: ../pics/leveragingsimulationbasedmodelpreconditions.png
+  img: ../pics/leveraging_simulation_based_model_preconditions.png
   links: 
       '[arXiv]': https://arxiv.org/abs/2403.11313
   short_id: leveragingsimulationbasedmodelpreconditions
@@ -36,7 +36,7 @@
   tags: null
 
 - abs: "Dexterous robotic manipulation remains a challenging domain due to its strict demands for precision and robustness on both hardware and software. While dexterous robotic hands have demonstrated remarkable capabilities in complex tasks, efficiently learning adaptive control policies for hands still presents a significant hurdle given the high dimensionalities of hands and tasks. To bridge this gap, we propose Tilde, an imitation learning-based in-hand manipulation system on a dexterous DeltaHand. It leverages 1) a low-cost, configurable, simple-to-control, soft dexterous robotic hand, DeltaHand, 2) a user-friendly, precise, real-time teleoperation interface, TeleHand, and 3) an efficient and generalizable imitation learning approach with diffusion policies. Our proposed TeleHand has a kinematic twin design to the DeltaHand that enables precise one-to-one joint control of the DeltaHand during teleoperation. This facilitates efficient high-quality data collection of human demonstrations in the real world. To evaluate the effectiveness of our system, we demonstrate the fully autonomous closed-loop deployment of diffusion policies learned from demonstrations across seven dexterous manipulation tasks with an average 90% success rate."
-  authors: Zilin Si*, Kevin Lee Zhang*, Zeynep Temel, Oliver Kroemer
+  authors: Zilin Si*, Kevin Lee Zhang*, Zeynep Temel, and Oliver Kroemer
   award: <award>Best paper award at 2nd Workshop on Dexterous Manipulation - Design, Perception and Control, RSS 2024</award>
   bib: >
     @inproceedings{si2024tilde,
@@ -56,7 +56,7 @@
   tags: null
 
 - abs: "Monitoring crop nutrients can aid farmers in optimizing fertilizer use. Many existing robots rely on vision-based phenotyping, however, which can only indirectly estimate nutrient deficiencies once crops have undergone visible color changes. We present a contact-based phenotyping robot platform that can directly insert nitrate sensors into cornstalks to proactively monitor macronutrient levels in crops. This task is challenging because inserting such sensors requires sub-centimeter precision in an environment which contains high levels of clutter, lighting variation, and occlusion. To address these challenges, we develop a robust perception-action pipeline to grasp stalks, and create a custom robot gripper which mechanically aligns the sensor before inserting it into the stalk. Through experimental validation on 48 unique stalks in a cornfield in Iowa, we demonstrate our platform's capability of detecting a stalk with 94 success"
-  authors: Moonyoung Lee, Aaron Berger, Dominic Guri, Kevin Zhang, Lisa Coffey, George Kantor, Oliver Kroemer
+  authors: Moonyoung Lee, Aaron Berger, Dominic Guri, Kevin Zhang, Lisa Coffey, George Kantor, and Oliver Kroemer
   award: null
   bib: >
     @inproceedings{lee2024towards,
@@ -69,7 +69,7 @@
   img: ../pics/cornbot.png
   links: 
       '[arXiv]': https://arxiv.org/abs/2311.03697
-      '[video]': https://www.youtube.com/watch?v=BiV99R9snWg
+      '[Video]': https://www.youtube.com/watch?v=BiV99R9snWg
   short_id: cornbot2024
   site: https://kantor-lab.github.io/cornbot/
   title: "Towards Autonomous Crop Monitoring: Inserting Sensors in Cluttered Environments"
@@ -78,7 +78,7 @@
   tags: null
 
 - abs: "There is growing interest in automating agricultural tasks that require intricate and precise interaction with specialty crops, such as trees and vines. However, developing robotic solutions for crop manipulation remains a difficult challenge due to complexities involved in modeling their deformable behavior. In this study, we present a framework for learning the deformation behavior of tree-like crops under contact interaction. Our proposed method involves encoding the state of a spring-damper modeled tree crop as a graph. This representation allows us to employ graph networks to learn both a forward model for predicting resulting deformations, and a contact policy for inferring actions to manipulate tree crops. We conduct a comprehensive set of experiments in a simulated environment and demonstrate generalizability of our method on previously unseen trees."
-  authors: Chung Hee Kim, Moonyoung Lee, Oliver Kroemer, George Kantor
+  authors: Chung Hee Kim, Moonyoung Lee, Oliver Kroemer, and George Kantor
   award: null
   bib: >
     @inproceedings{kim2024towards,
@@ -89,10 +89,10 @@
       year={2024},
       organization={IEEE}
     }
-  img: ../pics/treegnn.gif
+  img: ../pics/tree_gnn.gif
   links: 
       '[arXiv]': https://arxiv.org/abs/2311.07479
-      '[video]': https://www.youtube.com/watch?v=FGtdYFe0W9A
+      '[Video]': https://www.youtube.com/watch?v=FGtdYFe0W9A
   short_id: treegnn2024
   site: https://kantor-lab.github.io/tree_gnn/
   title: "Towards Robotic Tree Manipulation: Leveraging Graph Representations"
@@ -120,7 +120,7 @@
   video_embed: null
 
 - abs: "Dexterous robotic manipulation in unstructured environments can aid in everyday tasks such as cleaning and caretaking. Anthropomorphic robotic hands are highly dexterous and theoretically well-suited for working in human domains, but their complex designs and dynamics often make them difficult to control. By contrast, parallel-jaw grippers are easy to control and are used extensively in industrial applications, but they lack the dexterity for various kinds of grasps and in-hand manipulations. In this work, we present DELTAHANDS, a synergistic dexterous hand framework with Delta robots. The DELTAHANDS are soft, easy to reconfigure, simple to manufacture with low-cost off-the-shelf materials, and possess high degrees of freedom that can be easily controlled. DELTAHANDS' dexterity can be adjusted for different applications by leveraging actuation synergies, which can further reduce the control complexity, overall cost, and energy consumption. We characterize the Delta robots' kinematics accuracy, force profiles, and workspace range to assist with hand design. Finally, we evaluate the versatility of DELTAHANDS by grasping a diverse set of objects and by using teleoperation to complete three dexterous manipulation tasks: cloth folding, cap opening, and cable arrangement."
-  authors: Zilin Si, Kevin Lee Zhang, Oliver Kroemer, Zeynep Temel
+  authors: Zilin Si, Kevin Lee Zhang, Oliver Kroemer, and Zeynep Temel
   award: null
   bib: >
     @article{si2024deltahands,
@@ -133,7 +133,7 @@
   img: ../pics/DeltaHands.png
   links: 
       '[arXiv]': https://arxiv.org/pdf/2310.05266
-      '[video]': https://www.youtube.com/watch?v=rjUpAsF8DDY
+      '[Video]': https://www.youtube.com/watch?v=rjUpAsF8DDY
   short_id: deltahand2024
   site: https://sites.google.com/view/deltahands/
   title: "DELTAHANDS: A Synergistic Dexterous Hand Framework Based on Delta Robots"
@@ -155,7 +155,7 @@
     }
   img: ../pics/mbzirc2020.png
   links: 
-      '[pdf]': https://fieldrobotics.net/Field_Robotics/Volume_2_files/Vol2_07.pdf
+      '[Pdf]': https://fieldrobotics.net/Field_Robotics/Volume_2_files/Vol2_07.pdf
   short_id: mbzirc2020
   site: https://www.ri.cmu.edu/publications/carnegie-mellon-team-tartan-mission-level-robustness-with-rapidly-deployed-autonomous-aerial-vehicles-in-the-mbzirc-2020/
   title: "Mission-level Robustness with Rapidly-deployed, Autonomous Aerial Vehicles by Carnegie Mellon Team Tartan at MBZIRC 2020"
@@ -163,7 +163,7 @@
   video_embed: null
 
 - abs: "Multimodal information such as tactile, proximity and force sensing is essential for performing stable contact-rich manipulations. However, coupling multimodal information and motion control still remains a challenging topic. Rather than learning a monolithic skill policy that takes in all feedback signals at all times, skills should be divided into phases and learn to only use the sensor signals applicable to that phase. This makes learning the primitive policies for each phase easier, and allows the primitive policies to be more easily reused among different skills. However, stopping and abruptly switching between each primitive policy results in longer execution times and less robust behaviours. We therefore propose a blending approach to seamlessly combining the primitive policies into a reliable combined control policy. We evaluate both time-based and state-based blending approaches. The resulting approach was successfully evaluated in simulation and on a real robot, with an augmented finger vision sensor, on: opening a cap, turning a dial and flipping a breaker tasks. The evaluations show that the blended policies with multimodal feedback can be easily learned and reliably executed."
-  authors: Tetsuya Narita, Oliver Kroemer
+  authors: Tetsuya Narita and Oliver Kroemer
   award: <award>Best Manipulation Paper Finalist at ICRA 2021</award> 
   bib: >
     @article{Narita-2021-128850,
@@ -176,9 +176,9 @@
       number = {2},
       pages = {2721 - 2728},
     }
-  img: ../pics/policyblending.png
+  img: ../pics/policy_blending.png
   links: 
-      '[pdf]': https://www.ri.cmu.edu/app/uploads/2021/08/NaritaRAL2021.pdf
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2021/08/NaritaRAL2021.pdf
   short_id: policyblending
   site: https://www.ri.cmu.edu/publications/policy-blending-and-recombination-for-multimodal-contact-rich-tasks/
   title: "Policy Blending and Recombination for Multimodal Contact-Rich Tasks"
@@ -186,7 +186,7 @@
   video_embed: null
 
 - abs: "A key challenge in intelligent robotics is creating robots that are capable of directly in- teracting with the world around them to achieve their goals. The last decade has seen substantial growth in research on the problem of robot manipulation, which aims to exploit the increasing availability of affordable robot arms and grippers to create robots capable of directly interacting with the world to achieve their goals. Learning will be central to such autonomous systems, as the real world contains too much variation for a robot to expect to have an accurate model of its environment, the objects in it, or the skills required to manipulate them, in advance. We aim to survey a representative subset of that research which uses machine learning for manipulation. We describe a formalization of the robot manipulation learning problem that synthesizes existing research into a single coherent framework and highlight the many remaining research opportunities and challenges."
-  authors: Oliver Kroemer, Scott Niekum, George Konidaris
+  authors: Oliver Kroemer, Scott Niekum, and George Konidaris
   award: null
   bib: >
     @article{Kroemer-2021-128846,
@@ -199,9 +199,9 @@
       number = {30},
       pages = {1 - 82},
     }
-  img: ../pics/robotlearningreview.png
+  img: ../pics/robot_learning_review.png
   links: 
-      '[pdf]': https://www.ri.cmu.edu/app/uploads/2021/08/KroemerJMLR2021.pdf
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2021/08/KroemerJMLR2021.pdf
   short_id: robotlearningreview
   site: https://www.ri.cmu.edu/publications/a-review-of-robot-learning-for-manipulation-challenges-representations-and-algorithms/
   title: "A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms"
@@ -222,18 +222,84 @@
       number = {6},
       pages = {1619 - 1634},
     }
-  img: ../pics/tactilereview.png
+  img: ../pics/tactile_review.png
   links: 
-      '[pdf]': https://www.ri.cmu.edu/app/uploads/2021/08/LiTRo2020.pdf
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2021/08/LiTRo2020.pdf
   short_id: tactilereview
   site: https://www.ri.cmu.edu/publications/a-review-of-tactile-information-perception-and-action-through-touch/
   title: "A Review of Tactile Information: Perception and Action Through Touch"
   venue: "IEEE Transactions on Robotics, Dec 2020"
   video_embed: null
 
+- abs: "We cast visual imitation as a visual correspondence problem. Our robotic agent is rewarded when its actions result in better matching of relative spatial configurations for corresponding visual entities detected in its workspace and the teacher’s demonstration. We build upon recent advances in Computer Vision, such as human finger keypoint detectors, object detectors trained on-the- fly with synthetic augmentations, and point detectors supervised by viewpoint changes and learn multiple visual entity detectors for each demonstration with- out human annotations or robot interactions. We empirically show that the pro- posed factorized visual representations of entities and their spatial arrangements drive successful imitation of a variety of manipulation skills within minutes, us- ing a single demonstration and without any environment instrumentation. It is robust to background clutter and can effectively generalize across environment variations between demonstrator and imitator, greatly outperforming unstructured non-factorized full-frame CNN encodings of previous works."
+  authors:  Maximilian Sieb*, Zhou Xian*, Audrey Huang, Oliver Kroemer, and Katerina Fragkiadaki
+  award: null
+  bib: >
+    @conference{Sieb-2019-118476,
+      author = {Maximilian Sieb and Zhou Xian and Audrey Huang and Oliver Kroemer and Katerina Fragkiadaki},
+      title = {Graph-Structured Visual Imitation},
+      booktitle = {Proceedings of (CoRL) Conference on Robot Learning},
+      year = {2019},
+      month = {October},
+      pages = {979 - 989},
+    }
+  img: ../pics/graph_visual_imitation.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/1907.05518
+      '[Video]': https://www.youtube.com/watch?v=BRqAJbrbuyM
+  short_id: graphvisualimitation
+  site: https://msieb.com/visual-entity-graphs/
+  title: "Graph-Structured Visual Imitation"
+  venue: "Conference on Robot Learning (CoRL), Oct 2019"
+  video_embed: null
+
+- abs: "Cutting is a common form of manipulation when working with divisible objects such as food, rope, or clay. Cooking in particular relies heavily on cutting to divide food items into desired shapes. However, cutting food is a challenging task due to the wide range of material properties exhibited by food items. Due to this variability, the same cutting motions cannot be used for all food items. Sensations from contact events, e.g., when placing the knife on the food item, will also vary depending on the material properties, and the robot will need to adapt accordingly. In this paper, we propose using vibrations and force-torque feedback from the interactions to adapt the slicing motions and monitor for contact events. The robot learns neural networks for performing each of these tasks and generalizing across different material properties. By adapting and monitoring the skill executions, the robot is able to reliably cut through more than 20 different types of food items and even detect whether certain food items are fresh or old."
+  authors:  Kevin Zhang, Mohit Sharma, Manuela Veloso, and Oliver Kroemer
+  award: null
+  bib: >
+    @conference{Zhang-2019-118480,
+      author = {Kevin Zhang and Mohit Sharma and Manuela Veloso and Oliver Kroemer},
+      title = {Leveraging Multimodal Haptic Sensory Data for Robust Cutting},
+      booktitle = {Proceedings of IEEE-RAS International Conference on Humanoid Robots (Humanoids '19)},
+      year = {2019},
+      month = {October},
+      pages = {409 - 416},
+    }
+  img: ../pics/haptic_cutting.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/1909.12460
+      '[Video]': https://www.youtube.com/watch?v=WgoAuyR31dY
+  short_id: hapticcutting
+  site: https://www.ri.cmu.edu/publications/leveraging-multimodal-haptic-sensory-data-for-robust-cutting/
+  title: "Leveraging Multimodal Haptic Sensory Data for Robust Cutting"
+  venue: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), Oct 2019"
+  video_embed: null
+
+- abs: "Precise robotic grasping is important for many industrial applications, such as assembly and palletizing, where the location of the object needs to be controlled and known. However, achieving precise grasps is challenging due to noise in sensing and control, as well as unknown object properties. We propose a method to plan robotic grasps that are both robust and precise by training two convolutional neural networks - one to predict the robustness of a grasp and another to predict a distribution of post-grasp object displacements. Our networks are trained with depth images in simulation on a dataset of over 1000 industrial parts and were successfully deployed on a real robot without having to be further fine-tuned. The proposed displacement estimator achieves a mean prediction errors of 0.68cm and 3.42deg on novel objects in real world experiments."
+  authors:  Jialiang Zhao, Jacky Liang, and Oliver Kroemer
+  award: null
+  bib: >
+    @conference{Zhao-2019-116636,
+      author = {Jialiang Zhao and Jacky Liang and Oliver Kroemer},
+      title = {Toward Precise Robotic Grasping by Probabilistic Post-grasp Displacement Estimation},
+      booktitle = {Proceedings of 12th International Conference on Field and Service Robotics (FSR '19)},
+      year = {2019},
+      month = {August},
+      pages = {131 - 144},
+      publisher = {Springer},
+      keywords = {robotic grasping, self-supervised learning},
+    }
+  img: ../pics/probabilistic_postgrasp.png
+  links: 
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2019/07/FSR_2019_paper_17-1.pdf
+  short_id: probabilisticpostgrasp
+  site: https://www.ri.cmu.edu/publications/towards-precise-robotic-grasping-by-probabilistic-post-grasp-displacement-estimation/
+  title: "Toward Precise Robotic Grasping by Probabilistic Post-grasp Displacement Estimation"
+  venue: "Field and Service Robotics (FSR), Aug 2019"
+  video_embed: null
 
 - abs: "Recent progress in soft‐matter sensors has shown improved fabrication techniques, resolution, and range. However, scaling up these sensors into an information‐rich tactile skin remains largely limited by designs that require a corresponding increase in the number of wires to support each new sensing node. To address this, a soft tactile skin that can estimate force and localize contact over a continuous 15 mm2 area with a single integrated circuit and four output wires is introduced. The skin is composed of silicone elastomer loaded with randomly distributed magnetic microparticles. Upon deformation, the magnetic particles change position and orientation with respect to an embedded magnetometer, resulting in a change in the net measured magnetic field. Two experiments are reported to calibrate and estimate both location and force of surface contact. The classification algorithms can localize pressure with an accuracy of >98% on both grid and circle pattern. Regression algorithms can localize pressure to a 3 mm2 area on average. This proof‐of‐concept sensing skin addresses the increasing need for a simple‐to‐fabricate, quick‐to‐integrate, and information‐rich tactile surface for use in robotic manipulation, soft systems, and biomonitoring."
-  authors: Tess Hellebrekers, Oliver Kroemer, Carmel Majidi
+  authors: Tess Hellebrekers, Oliver Kroemer, and Carmel Majidi
   award: null
   bib: >
     @article{Hellebrekers-2019-118635,
@@ -245,17 +311,38 @@
       volume = {1},
       number = {4},
     }
-  img: ../pics/softmagneticskin.png
+  img: ../pics/soft_magnetic_skin.png
   links: 
-      '[pdf]': https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aisy.201900025
+      '[Pdf]': https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aisy.201900025
   short_id: softmagneticskin
   site: https://www.ri.cmu.edu/publications/soft-magnetic-skin-for-continuous-deformation-sensing/
   title: "Soft Magnetic Skin for Continuous Deformation Sensing"
   venue: "Advanced Intelligent Systems, July 2019"
   video_embed: null
 
+- abs: "Robots are prone to making mistakes when performing manipulation tasks in unstructured environments. Robust policies are thus needed to not only avoid mistakes but also to recover from them. We propose a framework for increasing the robustness of contact-based manipulations by modeling the task structure and optimizing a policy for selecting skills and recovery skills. A multimodal state transition model is acquired based on the contact dynamics of the task and the observed transitions. A policy is then learned from the model using reinforcement learning. The policy is incrementally improved by expanding the action space by generating recovery skills with a heuristic. Evaluations on three simulated manipulation tasks demonstrate the effectiveness of the framework. The robot was able to complete the tasks despite multiple contact state changes and errors encountered, increasing the success rate averaged across the tasks from 70.0% to 95.3%."
+  authors: Austin S. Wang and Oliver Kroemer
+  award: null
+  bib: >
+    @conference{Wang-2019-112298,
+      author = {Austin S. Wang and Oliver Kroemer},
+      title = {Learning Robust Manipulation Strategies with Multimodal State Transition Models and Recovery Heuristics},
+      booktitle = {Proceedings of (ICRA) International Conference on Robotics and Automation},
+      year = {2019},
+      month = {May},
+      pages = {1309 - 1315},
+    }
+  img: ../pics/learning_robust.png
+  links: 
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2019/03/Kroemer_Wang_ICRA_2019.pdf
+  short_id: learningrobust
+  site: https://www.ri.cmu.edu/publications/learning-robust-manipulation-strategies-with-multimodal-state-transition-models-and-recovery-heuristics/
+  title: "Learning Robust Manipulation Strategies with Multimodal State Transition Models and Recovery Heuristics"
+  venue: "International Conference on Robotics and Automation (ICRA), May 2019"
+  video_embed: null
+
 - abs: "Granular materials produce audio-frequency mechanical vibrations in air and structures when manipulated. These vibrations correlate with both the nature of the events and the intrinsic properties of the materials producing them. We therefore propose learning to use audio-frequency vibrations from contact events to estimate the flow and amount of granular materials during scooping and pouring tasks. We evaluated multiple deep and shallow learning frameworks on a dataset of 13,750 shaking and pouring samples across five different granular materials. Our results indicate that audio is an informative sensor modality for accurately estimating flow and amounts, with a mean RMSE of 2.8 g across the five materials for pouring. We also demonstrate how the learned networks can be used to pour a desired amount of material."
-  authors:  Samuel Clarke, Travers Rhodes, Christopher Atkeson, and Oliver Kroemer
+  authors: Samuel Clarke, Travers Rhodes, Christopher Atkeson, and Oliver Kroemer
   award: null
   bib: >
     @conference{Clarke-2018-110446,
@@ -267,10 +354,10 @@
       pages = {529 - 550},
       publisher = {Proceedings of Machine Learning Research},
     }
-  img: ../pics/learningaudio.png
+  img: ../pics/learning_audio.png
   links: 
-      '[pdf]': http://proceedings.mlr.press/v87/clarke18a/clarke18a.pdf
-      '[video]': https://www.youtube.com/watch?v=rNrjvdOb2TA
+      '[Pdf]': http://proceedings.mlr.press/v87/clarke18a/clarke18a.pdf
+      '[Video]': https://www.youtube.com/watch?v=rNrjvdOb2TA
   short_id: learningaudio
   site: https://www.ri.cmu.edu/publications/learning-audio-feedback-for-estimating-amount-and-flow-of-granular-material/
   title: "Learning Audio Feedback for Estimating Amount and Flow of Granular Material"

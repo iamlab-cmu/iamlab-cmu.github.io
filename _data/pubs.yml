@@ -140,6 +140,127 @@
   venue: "IEEE Robotics and Automation Letters (RA-L), Feb 2024"
   video_embed: null
 
+- abs: "We propose SCALE, an approach for discovering and learning a diverse set of interpretable robot skills from a limited dataset. Rather than learning a single skill which may fail to capture all the modes in the data, we first identify the different modes via causal reasoning and learn a separate skill for each of them. Our main insight is to associate each mode with a unique set of causally relevant context variables that are discovered by performing causal interventions in simulation. This enables data partitioning based on the causal processes that generated the data, and then compressed skills that ignore the irrelevant variables can be trained. We model each robot skill as a Regional Compressed Option, which extends the options framework by associating a causal process and its relevant variables with the option. Modeled as the skill Data Generating Region, each causal process is local in nature and hence valid over only a subset of the context space. We demonstrate our approach for two representative manipulation tasks: block stacking and peg-in-hole insertion under uncertainty. Our experiments show that our approach yields diverse skills that are compact, robust to domain shifts, and suitable for sim-to-real transfer."
+  authors: Tabitha Edith Lee, Shivam Vats, Siddharth Girdhar, and Oliver Kroemer
+  award: null
+  bib: >
+    @article{Lee-Vats-2023-138873,
+      title={SCALE: Causal Learning and Discovery of Robot Manipulation Skills using Simulation},
+      author={Tabitha Edith Lee and Shivam Vats and Siddharth Girdhar and Oliver Kroemer},
+      journal={Proceedings of (CoRL) Conference on Robot Learning},
+      year={2023}
+    }
+  img: ../pics/SCALE.png
+  links: 
+      '[Pdf]': https://openreview.net/pdf?id=WmF-fagWdD
+  short_id: scale2024
+  site: https://sites.google.com/view/scale-causal-learn-robot-skill
+  title: "SCALE: Causal Learning and Discovery of Robot Manipulation Skills using Simulation"
+  venue: "Conference on Robot Learning (CoRL), Nov 2023"
+  video_embed: null
+
+- abs: "Operating under real world conditions is challenging due to the possibility of a wide range of failures induced by execution errors and state uncertainty. In relatively benign settings, such failures can be overcome by retrying or executing one of a small number of hand-engineered recovery strategies. By contrast, contact-rich sequential manipulation tasks, like opening doors and assembling furniture, are not amenable to exhaustive hand-engineering. To address this issue, we present a general approach for robustifying manipulation strategies in a sample-efficient manner. Our approach incrementally improves robustness by first discovering the failure modes of the current strategy via exploration in simulation and then learning additional recovery skills to handle these failures. To ensure efficient learning, we propose an online algorithm called Meta-Reasoning for Skill Learning (MetaReSkill) that monitors the progress of all recovery policies during training and allocates training resources to recoveries that are likely to improve the task performance the most. We use our approach to learn recovery skills for door-opening and evaluate them both in simulation and on a real robot with little fine-tuning. Compared to open-loop execution, our experiments show that even a limited amount of recovery learning improves task success substantially from 71% to 92.4% in simulation and from 75% to 90% on a real robot."
+  authors: Shivam Vats, Maxim Likhachev, and Oliver Kroemer
+  award: null
+  bib: >
+    @article{Vats-2023-135449,
+      author = {Shivam Vats and Maxim Likhachev and Oliver Kroemer},
+      title = {Efficient Recovery Learning using Model Predictive Meta-Reasoning},
+      journal = {Proceedings of (ICRA) International Conference on Robotics and Automation},
+      year = {2023},
+      month = {May},
+    }
+  img: ../pics/vats23.png
+  links: 
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2023/03/submission_camera_ready.pdf
+  short_id: vats2023
+  site: https://www.ri.cmu.edu/publications/carnegie-mellon-team-tartan-mission-level-robustness-with-rapidly-deployed-autonomous-aerial-vehicles-in-the-mbzirc-2020/
+  title: "Efficient Recovery Learning using Model Predictive Meta-Reasoning"
+  venue: "International Conference on Robotics and Automation (ICRA), May 2023"
+  video_embed: null
+
+- abs: "Research on Interactive Robot Learning has yielded several modalities for querying a human for training data, including demonstrations, preferences, and corrections. While prior work in this space has focused on optimizing the robot’s queries within each interaction type, there has been little work on optimizing over the selection of the interaction type itself. We present INQUIRE, the first algorithm to implement and optimize over a generalized representation of information gain across multiple interaction types. Our evaluations show that INQUIRE can dynamically optimize its interaction type (and respective optimal query) based on its current learning status and the robot’s state in the world, resulting in more robust performance across tasks in comparison to state-of-the-art baseline methods. Additionally, INQUIRE allows for customizable cost metrics to bias its selection of interaction types, enabling this algorithm to be tailored to a robot’s particular deployment domain and formulate cost-aware, informative queries."
+  authors: Tesca Fitzgerald, Pallavi Koppol, Patrick Callaghan, Russell Q. Wong, Reid Simmons, Oliver Kroemer, and Henny Admoni
+  award: null
+  bib: >
+    @article{si2024deltahands,
+      title={INQUIRE: INteractive Querying for User-aware Informative REasoning},
+      author={Tesca Fitzgerald, Pallavi Koppol, Patrick Callaghan, Russell Q. Wong, Reid Simmons, Oliver Kroemer, and Henny Admoni},
+      journal={Proceedings of (CoRL) Conference on Robot Learning},
+      year={2022}
+    }
+  img: ../pics/inquire2022.png
+  links: 
+      '[Pdf]': https://openreview.net/pdf?id=3CQ3Vt0v99
+  short_id: inquire2022
+  site: https://github.com/HARPLab/inquire
+  title: "INQUIRE: INteractive Querying for User-aware Informative REasoning"
+  venue: "Conference on Robot Learning (CoRL), Dec 2022"
+  video_embed: null
+
+- abs: "Robots need to manipulate objects in constrained environments like shelves and cabinets when assisting humans in everyday settings like homes and offices. These constraints make manipulation difficult by reducing grasp accessibility, so robots need to use non-prehensile strategies that leverage object-environment contacts to perform manipulation tasks. To tackle the challenge of planning and controlling contact-rich behaviors in such settings, this work uses Hybrid Force-Velocity Controllers (HFVCs) as the skill representation and plans skill sequences with learned preconditions. While HFVCs naturally enable robust and compliant contact-rich behaviors, solvers that synthesize them have traditionally relied on precise object models and closed-loop feedback on object pose, which are difficult to obtain in constrained environments due to occlusions. We first relax HFVCs’ need for precise models and feedback with our HFVC synthesis framework, then learn a point-cloud-based precondition function to classify where HFVC executions will still be successful despite modeling inaccuracies. Finally, we use the learned precondition in a search-based task planner to complete contact-rich manipulation tasks in a shelf domain. Our method achieves a task success rate of 73.2%, outperforming the 51.5% achieved by a baseline without the learned precondition. While the precondition function is trained in simulation, it can also trans- fer to a real-world setup without further fine-tuning. See supplementary materials and videos at https://sites.google.com/view/constrained-manipulation/."
+  authors: Jacky Liang, Xianyi Cheng, and Oliver Kroemer
+  award: null
+  bib: >
+    @article{Liang-2022-134572,
+      title={Learning Preconditions of Hybrid Force-Velocity Controllers for Contact-Rich Manipulation},
+      author={Jacky Liang, Xianyi Cheng, and Oliver Kroemer},
+      journal={Proceedings of (CoRL) Conference on Robot Learning},
+      year={2022}
+    }
+  img: ../pics/liang2022.png
+  links: 
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2023/01/65_learning_preconditions_of_hybr.pdf
+  short_id: liang2022
+  site:  https://sites.google.com/view/constrained-manipulation/
+  title: "Learning Preconditions of Hybrid Force-Velocity Controllers for Contact-Rich Manipulation"
+  venue: "Conference on Robot Learning (CoRL), Dec 2022"
+  video_embed: null
+
+- abs: "A key challenge in learning to perform manipu- lation tasks is selecting a suitable skill representation. While specific skill representations are often easier to learn, they are often only suitable for a narrow set of tasks. In most prior works, roboticists manually provide the robot with a suitable skill representation to use e.g. a neural network or DMPs. By contrast, we propose to allow the robot to select the most appropriate skill representation for the underlying task. Given the large space of skill representations, we utilize a single demonstration to select a small set of potential task-relevant representations. This set is then further refined using reinforcement learning to select the most suitable skill representation. Experiments in both simulation and real world show how our proposed approach leads to improved sample efficiency and enables directly learning on the real robot."  
+  authors: Mohit Sharma and Oliver Kroemer
+  award: null
+  bib: >
+    @article{Liang-2022-134572,
+      title={Efficiently Learning Manipulations by Selecting Structured Skill Representations},
+      author={Mohit Sharma and Oliver Kroemer},
+      journal={Proceedings of (IROS) IEEE/RSJ International Conference on Intelligent Robots and Systems},
+      year={2022}, 
+      month={October},
+      publisher={IEEE}
+    }
+  img: ../pics/sharma2022.png
+  links: 
+      '[Pdf]': https://www.ri.cmu.edu/app/uploads/2023/01/Efficiently_Learning_Manipulations_by_Selecting_Structured_Skill_Representations.pdf
+  short_id: sharma2022
+  site:  https://sites.google.com/view/constrained-manipulation/
+  title: "Efficiently Learning Manipulations by Selecting Structured Skill Representations"
+  venue: "International Conference on Intelligent Robots and Systems (IROS), Oct 2022"
+  video_embed: null
+
+- abs: "Questions in causality, control, and reinforcement learning go beyond the classical machine learning task of prediction under i.i.d. observations. Instead, these fields consider the problem of learning how to actively perturb a system to achieve a certain effect on a response variable. Arguably, they have complementary views on the problem: In control, one usually aims to first identify the system by excitation strategies to then apply model-based design techniques to control the system. In (non-model-based) reinforcement learning, one directly optimizes a reward. In causality, one focus is on identifiability of causal structure. We believe that combining the different views might create synergies and this competition is meant as a first step toward such synergies. The participants had access to observational and (offline) interventional data generated by dynamical systems. Track CHEM considers an open-loop problem in which a single impulse at the beginning of the dynamics can be set, while Track ROBO considers a closed-loop problem in which control variables can be set at each time step. The goal in both tracks is to infer controls that drive the system to a desired state. Code is open-sourced (https://github.com/LearningByDoingCompetition/learningbydoing-comp) to reproduce the winning solutions of the competition and to facilitate trying out new methods on the competition tasks."  
+  authors: Sebastian Weichwald, Søren Wengel Mogensen, Tabitha Edith Lee, Dominik Baumann, Oliver Kroemer, Isabelle Guyon, Sebastian Trimpe, Jonas Peters, and Niklas Pfister
+  award: null
+  bib: >
+    @article{Weichwald-2022-135091,
+      title={Learning by Doing: Controlling a Dynamical System using Causality, Control, and Reinforcement Learning},
+      author={Sebastian Weichwald, Søren Wengel Mogensen, Tabitha Edith Lee, Dominik Baumann, Oliver Kroemer, Isabelle Guyon, Sebastian Trimpe, Jonas Peters, and Niklas Pfister},
+      journal={Proceedings of (NeurIPS) Neural Information Processing Systems},
+      year={2022}, 
+      month={July},
+      volume = {176},
+      pages = {246 - 258},
+      publisher = {Machine Learning Research}
+    }
+  img: ../pics/weichwald2022.png
+  links: 
+      '[Pdf]': https://proceedings.mlr.press/v176/weichwald22a/weichwald22a.pdf
+  short_id: weichwald2022
+  site:  https://github.com/LearningByDoingCompetition/learningbydoing-comp
+  title: "Learning by Doing: Controlling a Dynamical System using Causality, Control, and Reinforcement Learning"
+  venue: "Neural Information Processing Systems (NeurlIPS), July 2022"
+  video_embed: null
+
 - abs: "For robotics systems to be used in high risk, real-world situations, they have to be quickly deployable and robust to environmental changes, under-performing hardware, and mission subtask failures. Robots are often designed to consider a single sequence of mission events, with complex algorithms lowering individual subtask failure rates under some critical con- straints. Our approach is to leverage common techniques in vision and control and encode robustness into mission structure through outcome monitoring and recovery strategies, aided by a system infrastructure that allows for quick mission deployments under tight time con- straints and no central communication. We also detail lessons in rapid field robotics devel- opment and testing. Systems were developed and evaluated through real-robot experiments at an outdoor test site in Pittsburgh, Pennsylvania, USA, as well as in the 2020 Mohamed Bin Zayed International Robotics Challenge. All competition trials were completed in fully autonomous mode without RTK-GPS. Our system led to 4th place in Challenge 2 and 7th place in the Grand Challenge, and achievements like popping five balloons (Challenge 1), successfully picking and placing a block (Challenge 2), and dispensing the most water autonomously with a UAV of all teams onto an outdoor, real fire (Challenge 3)."
   authors:  Anish Bhattacharya, Akshit Gandhi, Lukas Merkle, Rohan Tiwari, Karun Warrior, Stanley Winata, Andrew Saba, Kevin Zhang, Oliver Kroemer, and Sebastian Scherer
   award: null

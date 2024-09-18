@@ -119,6 +119,30 @@
   venue: "International Conference on Robotics and Automation (ICRA), May 2024"
   video_embed: null
 
+- abs: "Robots need to estimate the material and dynamic properties of objects from observations in order to simulate them accurately. We present a Bayesian optimization approach to identifying the material property parameters of objects based on a set of observations. Our focus is on estimating these properties based on observations of scenes with different sets of interacting objects. We propose an approach that exploits the structure of the reward function by modeling the reward for each observation separately and using only the parameters of the objects in that scene as inputs. The resulting lower-dimensional models generalize better over the parameter space, which in turn results in a faster optimization. To speed up the optimization process further, and reduce the number of simulation runs needed to find good parameter values, we also propose partial evaluations of the reward function, wherein the selected parameters are only evaluated on a subset of real world evaluations. The approach was successfully evaluated on a set of scenes with a wide range of object interactions, and we showed that our method can effectively perform incremental learning without resetting the rewards of the gathered observations."
+  authors: M. Yunus Seker and Oliver Kroemer
+  award: null
+  bib: >
+    @INPROCEEDINGS{10610129,
+      author={Seker, M. Yunus and Kroemer, Oliver},
+      booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+      title={Estimating Material Properties of Interacting Objects Using Sum-GP-UCB}, 
+      year={2024},
+      volume={},
+      number={},
+      pages={16684-16690},
+      keywords={Incremental learning;Bayes methods;Object recognition;Optimization;Robots;Material properties},
+      doi={10.1109/ICRA57147.2024.10610129}
+    }
+  img: ../pics/sumgp.png
+  links:
+      '[arXiv]': https://arxiv.org/pdf/2310.11749
+  short_id: sumgp2024
+  site: https://myunusseker.github.io/SumGP/
+  title: "Estimating Material Properties of Interacting Objects Using Sum-GP-UCB"
+  venue: "International Conference on Robotics and Automation (ICRA), May 2024"
+  video_embed: null
+
 - abs: "Dexterous robotic manipulation in unstructured environments can aid in everyday tasks such as cleaning and caretaking. Anthropomorphic robotic hands are highly dexterous and theoretically well-suited for working in human domains, but their complex designs and dynamics often make them difficult to control. By contrast, parallel-jaw grippers are easy to control and are used extensively in industrial applications, but they lack the dexterity for various kinds of grasps and in-hand manipulations. In this work, we present DELTAHANDS, a synergistic dexterous hand framework with Delta robots. The DELTAHANDS are soft, easy to reconfigure, simple to manufacture with low-cost off-the-shelf materials, and possess high degrees of freedom that can be easily controlled. DELTAHANDS' dexterity can be adjusted for different applications by leveraging actuation synergies, which can further reduce the control complexity, overall cost, and energy consumption. We characterize the Delta robots' kinematics accuracy, force profiles, and workspace range to assist with hand design. Finally, we evaluate the versatility of DELTAHANDS by grasping a diverse set of objects and by using teleoperation to complete three dexterous manipulation tasks: cloth folding, cap opening, and cable arrangement."
   authors: Zilin Si, Kevin Lee Zhang, Oliver Kroemer, and Zeynep Temel
   award: null

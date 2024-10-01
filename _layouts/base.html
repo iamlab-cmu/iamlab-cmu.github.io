@@ -15,22 +15,26 @@ common-js:
   - "/js/main.js"
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+{% include gtm_body.html %}
+{% include nav.html %}
+{{ content }}
+{% if layout.name == 'base' or page.layout == 'base' %}
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        {% include carousel.html height="45" unit="%" duration="7" number="1" %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% include footer.html %}
+{% include footer-scripts.html %}
 
-    {% include gtm_body.html %}
-
-    {% include nav.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-
-    {% include footer-scripts.html %}
-
-  </body>
-</html>
+<style>
+  .carousel-inner > .item > img {
+    width: 100%;
+    height: auto;
+  }
+</style>

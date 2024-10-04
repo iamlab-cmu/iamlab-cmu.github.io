@@ -117,6 +117,7 @@
   abs: "Planning robot dexterity is challenging due to the non-smoothness introduced by contacts, intricate fine motions, and ever-changing scenarios. We present a hierarchical planning framework for dexterous robotic manipulation (HiDex). This framework explores in-hand and extrinsic dexterity by leveraging contacts. It generates rigid-body motions and complex contact sequences. Our framework is based on Monte-Carlo Tree Search and has three levels: 1) planning object motions and environment contact modes; 2) planning robot contacts; 3) path evaluation and control optimization. This framework offers two main advantages. First, it allows efficient global reasoning over high-dimensional complex space created by contacts. It solves a diverse set of manipulation tasks that require dexterity, both intrinsic (using the fingers) and extrinsic (also using the environment), mostly in seconds. Second, our framework allows the incorporation of expert knowledge and customizable setups in task mechanics and models. It requires minor modifications to accommodate different scenarios and robots. Hence, it provides a flexible and generalizable solution for various manipulation tasks. As examples, we analyze the results on 7 hand configurations and 15 scenarios. We demonstrate 8 tasks on two robot platforms."
   links: 
       '[arXiv]': https://arxiv.org/abs/2307.00383
+      '[Video]': https://youtu.be/6gyQfbPDHyk
   short_id: HiDex
   projects: delta_arrays
   video_embed: <iframe width="1713" height="797" src="https://www.youtube.com/embed/6gyQfbPDHyk" title="Hierarchical planning for dexterous robotic manipulation using delta arrays" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -220,6 +221,7 @@
   img: ../pics/delta_array.png
   links: 
       '[arXiv]': https://arxiv.org/abs/2206.04596
+      '[Video]': https://www.youtube.com/watch?v=YJTMs1JSgmk
   short_id: delta_arrays
   title: "Linear Delta Arrays for Compliant Dexterous Distributed Manipulation"
   venue: "International Conference on Robotics and Automation (ICRA), May 2023"
@@ -301,6 +303,7 @@
   img: ../pics/deltaz.jpeg
   links: 
       '[arXiv]': https://arxiv.org/abs/2207.00721
+      '[Video]': https://www.youtube.com/watch?v=qVgegOdJpYw
   short_id: deltaZ
   title: "DeltaZ: An Accessible Compliant Delta Robot Manipulator for Research and Education"
   venue: "International Conference on Intelligent Robots and Systems (IROS), Oct 2022"

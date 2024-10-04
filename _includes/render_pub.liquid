@@ -1,0 +1,9 @@
+
+**{{ pub.title }}.**<br />
+{{ pub.authors }}. <br />*{{ pub.venue }}*{% 
+  if pub.volume != None 
+%}, {{ pub.volume}}{% endif %}{% 
+  if pub.number != None 
+%}({{ pub.number}}){% endif %} {{ pub.year }} {% 
+  if pub.short_id != None 
+%}[pdf](/pdfs/{{ pub.short_id }}.pdf){% endif %}

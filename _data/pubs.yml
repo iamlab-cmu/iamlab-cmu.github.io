@@ -100,6 +100,28 @@
   video_embed: <iframe width="1280" height="720" src="https://www.youtube.com/embed/FGtdYFe0W9A" title="Towards Robotic Tree Manipulation, Leveraging Graph Representations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: null
 
+- title: "Enhancing Dexterity in Robotic Manipulation via Hierarchical Contact Exploration"
+  authors: Xianyi Cheng, Sarvesh Patil, F. Zeynep Temel, Oliver Kroemer, Matthew T. Mason
+  venue: "IEEE Robotics and Automation Letters (RA-L), June 2024"
+  bib: >
+    @ARTICLE{cheng2024hidex,
+      author={Cheng, Xianyi and Patil, Sarvesh and Temel, Zeynep and Kroemer, Oliver and Mason, Matthew T.},
+      journal={IEEE Robotics and Automation Letters}, 
+      title={Enhancing Dexterity in Robotic Manipulation via Hierarchical Contact Exploration}, 
+      year={2024},
+      volume={9},
+      number={1},
+      pages={390-397},
+      doi={10.1109/LRA.2023.3333699}}
+  img: ../pics/HiDex.gif
+  abs: "Planning robot dexterity is challenging due to the non-smoothness introduced by contacts, intricate fine motions, and ever-changing scenarios. We present a hierarchical planning framework for dexterous robotic manipulation (HiDex). This framework explores in-hand and extrinsic dexterity by leveraging contacts. It generates rigid-body motions and complex contact sequences. Our framework is based on Monte-Carlo Tree Search and has three levels: 1) planning object motions and environment contact modes; 2) planning robot contacts; 3) path evaluation and control optimization. This framework offers two main advantages. First, it allows efficient global reasoning over high-dimensional complex space created by contacts. It solves a diverse set of manipulation tasks that require dexterity, both intrinsic (using the fingers) and extrinsic (also using the environment), mostly in seconds. Second, our framework allows the incorporation of expert knowledge and customizable setups in task mechanics and models. It requires minor modifications to accommodate different scenarios and robots. Hence, it provides a flexible and generalizable solution for various manipulation tasks. As examples, we analyze the results on 7 hand configurations and 15 scenarios. We demonstrate 8 tasks on two robot platforms."
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2307.00383
+  short_id: HiDex
+  projects: delta_arrays
+  video_embed: <iframe width="1713" height="797" src="https://www.youtube.com/embed/6gyQfbPDHyk" title="Hierarchical planning for dexterous robotic manipulation using delta arrays" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags: null
+
 - abs: "Large, high-capacity models trained on diverse datasets have shown remarkable successes on efficiently tackling downstream applications. In domains from NLP to Computer Vision, this has led to a consolidation of pretrained models, with general pretrained backbones serving as a starting point for many applications. Can such a consolidation happen in robotics? Conventionally, robotic learning methods train a separate model for every application, every robot, and even every environment. Can we instead train “generalist” X-robot policy that can be adapted efficiently to new robots, tasks, and environments? In this paper, we provide datasets in standardized data formats and models to make it possible to explore this possibility in the context of robotic manipulation, alongside experimental results that provide an example of effective X-robot policies. We assemble a dataset from 22 different robots collected through a collaboration between 21 institutions, demonstrating 527 skills (160266 tasks). We show that a high-capacity model trained on this data, which we call RT-X, exhibits positive transfer and improves the capabilities of multiple robots by leveraging experience from other platforms."
   authors: Open X-Embodiment Collaboration, Jacky Liang, Kevin Zhang, Mohit Sharma, Oliver Kroemer, and 287 others
   award: <award>Best Paper at ICRA 2024</award> 
@@ -183,6 +205,28 @@
   venue: "Conference on Robot Learning (CoRL), Nov 2023"
   video_embed: null
 
+- abs: "This paper presents a new type of distributed dexterous manipulator: delta arrays. Our delta array setup consists of 64 linearly-actuated delta robots with 3D-printed compliant linkages. Through the design of the individual delta robots, the modular array structure, and distributed communication and control, we study a wide range of in-plane and out-of-plane manipulations, as well as prehensile manipulations among subsets of neighboring delta robots. We also demonstrate dexterous manipulation capabilities of the delta array using reinforcement learning while leveraging the compliance to not break the end-effectors. Our evaluations show that the resulting 192 DoF compliant robot is capable of performing various coordinated distributed manipulations of a variety of objects, including translation, alignment, prehensile squeezing, lifting, and grasping."
+  authors: Sarvesh Patil, Tony Tao, Tess Hellebrekers, Oliver Kroemer, F. Zeynep Temel
+  bib: >
+    @inproceedings{Patil_2023,
+      title={Linear Delta Arrays for Compliant Dexterous Distributed Manipulation},
+      url={http://dx.doi.org/10.1109/ICRA48891.2023.10160578},
+      DOI={10.1109/icra48891.2023.10160578},
+      booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+      publisher={IEEE},
+      author={Patil, Sarvesh and Tao, Tony and Hellebrekers, Tess and Kroemer, Oliver and Temel, F. Zeynep},
+      year={2023},
+      month=may}
+  img: ../pics/delta_array.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2206.04596
+  short_id: delta_arrays
+  title: "Linear Delta Arrays for Compliant Dexterous Distributed Manipulation"
+  venue: "International Conference on Robotics and Automation (ICRA), May 2023"
+  projects: delta_arrays
+  video_embed: <iframe width="1713" height="797" src="https://www.youtube.com/embed/YJTMs1JSgmk" title="Linear Delta Arrays for Compliant Dexterous Distributed Manipulation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags: null
+
 - abs: "Operating under real world conditions is challenging due to the possibility of a wide range of failures induced by execution errors and state uncertainty. In relatively benign settings, such failures can be overcome by retrying or executing one of a small number of hand-engineered recovery strategies. By contrast, contact-rich sequential manipulation tasks, like opening doors and assembling furniture, are not amenable to exhaustive hand-engineering. To address this issue, we present a general approach for robustifying manipulation strategies in a sample-efficient manner. Our approach incrementally improves robustness by first discovering the failure modes of the current strategy via exploration in simulation and then learning additional recovery skills to handle these failures. To ensure efficient learning, we propose an online algorithm called Meta-Reasoning for Skill Learning (MetaReSkill) that monitors the progress of all recovery policies during training and allocates training resources to recoveries that are likely to improve the task performance the most. We use our approach to learn recovery skills for door-opening and evaluate them both in simulation and on a real robot with little fine-tuning. Compared to open-loop execution, our experiments show that even a limited amount of recovery learning improves task success substantially from 71% to 92.4% in simulation and from 75% to 90% on a real robot."
   authors: Shivam Vats, Maxim Likhachev, and Oliver Kroemer
   award: null
@@ -240,6 +284,29 @@
   title: "Learning Preconditions of Hybrid Force-Velocity Controllers for Contact-Rich Manipulation"
   venue: "Conference on Robot Learning (CoRL), Dec 2022"
   video_embed: null
+
+- abs: "This paper presents the DeltaZ robot, a centimeter-scale, low-cost, delta-style robot that allows for a broad range of capabilities and robust functionalities. Current technologies allow DeltaZ to be 3D-printed from soft and rigid materials so that it is easy to assemble and maintain, and lowers the barriers to utilize. Functionality of the robot stems from its three translational degrees of freedom and a closed form kinematic solution which makes manipulation problems more intuitive compared to other manipulators. Moreover, the low cost of the robot presents an opportunity to democratize manipulators for a research setting. We also describe how the robot can be used as a reinforcement learning benchmark. Open-source 3D-printable designs and code are available to the public."
+  authors: Sarvesh Patil*, Samuel C. Alvares*, Pragna Mannam, Oliver Kroemer, F. Zeynep Temel
+  bib: >
+    @inproceedings{Patil_2022,
+      title={DeltaZ: An Accessible Compliant Delta Robot Manipulator for Research and Education},
+      volume={22},
+      url={http://dx.doi.org/10.1109/IROS47612.2022.9981257},
+      DOI={10.1109/iros47612.2022.9981257},
+      booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      publisher={IEEE},
+      author={Patil, Sarvesh and Alvares, Samuel C. and Mannam, Pragna and Kroemer, Oliver and Temel, F. Zeynep},
+      year={2022},
+      month=oct, pages={13213–13219} }
+  img: ../pics/deltaz.jpeg
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2207.00721
+  short_id: deltaZ
+  title: "DeltaZ: An Accessible Compliant Delta Robot Manipulator for Research and Education"
+  venue: "International Conference on Intelligent Robots and Systems (IROS), Oct 2022"
+  projects: delta_arrays
+  video_embed: <iframe width="1713" height="797" src="https://www.youtube.com/embed/qVgegOdJpYw" title="Multiple DeltaZ Training Simultaneously Using Reinforcement Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags: null
 
 - abs: "A key challenge in learning to perform manipu- lation tasks is selecting a suitable skill representation. While specific skill representations are often easier to learn, they are often only suitable for a narrow set of tasks. In most prior works, roboticists manually provide the robot with a suitable skill representation to use e.g. a neural network or DMPs. By contrast, we propose to allow the robot to select the most appropriate skill representation for the underlying task. Given the large space of skill representations, we utilize a single demonstration to select a small set of potential task-relevant representations. This set is then further refined using reinforcement learning to select the most suitable skill representation. Experiments in both simulation and real world show how our proposed approach leads to improved sample efficiency and enables directly learning on the real robot."  
   authors: Mohit Sharma and Oliver Kroemer

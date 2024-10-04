@@ -17,7 +17,7 @@ This project is focused on the development of robots that can safely and efficie
 <h4 style="display: inline;">Relevant publications</h4>
 </summary>
 <div markdown="1">
-{% include render_pub_list.liquid variable="projects" value="delta_robots" check="contains" %}
+{% include render_pub_list.liquid variable="projects" value="ballbot" check="contains" %}
 </div>
 </details>
 
@@ -34,14 +34,14 @@ The agriculture interaction project is focused on picking specialty crops such a
 <h4 style="display: inline;">Relevant publications</h4>
 </summary>
 <div markdown="1">
-{% include render_pub_list.liquid variable="projects" value="delta_robots" check="contains" %}
+{% include render_pub_list.liquid variable="projects" value="cornbot" check="contains" %}
 </div>
 </details>
 
 
 ## Delta Arrays
 
-<img src="/pics/DeltaHands.png" alt="Delta Arrays" style="float: left; width: 300px; margin-right: 20px; margin-bottom: 20px;">
+<img src="/pics/delta_array.png" alt="Delta Arrays" style="float: left; width: 300px; margin-right: 20px; margin-bottom: 20px;">
 
 The delta array project uses miniature delta bots on a robot's end-effector to enhance dexterity in manipulation tasks. We propose a novel manipulator: an 8x8 hexagonal grid of 64 linear soft delta robots, creating a 192 DoF-compliant system. This design explores complex multi-robot dexterous manipulation while maintaining accessibility. The 3D-printed soft TPU links provide mechanical compliance, allowing for safe collisions. Using reinforcement learning, we demonstrate various coordinated distributed manipulations, including translation, alignment, squeezing, lifting, and grasping of diverse objects. 
 
@@ -54,10 +54,29 @@ This project collaborates with Professor Zeynep Temel, aiming to develop new man
 <h4 style="display: inline;">Relevant publications</h4>
 </summary>
 <div markdown="1">
-{% include render_pub_list.liquid variable="projects" value="delta_robots" check="contains" %}
+{% include render_pub_list.liquid variable="projects" value="delta_arrays" check="contains" %}
 </div>
 </details>
 
+
+## Delta Hands
+
+<img src="/pics/DeltaHands.png" alt="Delta Hands" style="float: left; width: 300px; margin-right: 20px; margin-bottom: 20px;">
+
+DeltaHand is a synergistic robotic hand platform for dexterous manipulation. By leveraging the modularity of Delta robots, our hands are easy to configure to different degrees of freedom with actuation synergies. The manufacturing is low cost by using off-the-shelf materials (the robot can be manufactured in less than a day and costs under $800). We use soft Delta links for the fingers, and show that our hands can compliantly and safely interact with the environment. 
+
+We demonstrate grasping of daily objects using our hand prototypes and teleoperating a 9-actuator Delta hand with a Franka robot arm for dexterous manipulation tasks, we show that we can easily control our hands by leveraging the synergy of our hands while maintaining the necessary dexterity.
+
+<div style="clear: both;"></div>
+
+<details>
+<summary markdown="1" style="display: list-item;">
+<h4 style="display: inline;">Relevant publications</h4>
+</summary>
+<div markdown="1">
+{% include render_pub_list.liquid variable="projects" value="delta_robots" check="contains" %}
+</div>
+</details>
 
 # Past Projects 
 

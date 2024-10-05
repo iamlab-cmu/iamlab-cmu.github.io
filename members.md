@@ -134,7 +134,7 @@ carousels:
     </div>
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/tabitha_lee.jpg" alt="Tabitha Lee" />
-      <a class="member-name" href="https://www.andrew.cmu.edu/user/tel1/">Tabitha Lee</a>
+      <a class="member-name" href="https://tabula-rosa.github.io/">Tabitha Lee</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/causal-robot-learning-for-manipulation/">Ph.D Thesis Jul. 2024</a>
       (Now at Lockheed Martin)
     </div>

@@ -244,24 +244,24 @@
   links: 
       '[Pdf]': https://www.ri.cmu.edu/app/uploads/2023/03/submission_camera_ready.pdf
   short_id: vats2023
-  site: https://www.ri.cmu.edu/publications/carnegie-mellon-team-tartan-mission-level-robustness-with-rapidly-deployed-autonomous-aerial-vehicles-in-the-mbzirc-2020/
+  site: https://sites.google.com/view/recoverylearning
   title: "Efficient Recovery Learning using Model Predictive Meta-Reasoning"
   venue: "International Conference on Robotics and Automation (ICRA), May 2023"
   video_embed: null
   
 - abs: "We consider the problem of completing a set of n tasks with a human-robot team using minimum effort. In many domains, teaching a robot to be fully autonomous can be counterproductive if there are finitely many tasks to be done. Rather, the optimal strategy is to weigh the cost of teaching a robot and its benefit -- how many new tasks it allows the robot to solve autonomously. We formulate this as a planning problem where the goal is to decide what tasks the robot should do autonomously (act), what tasks should be delegated to a human (delegate) and what tasks the robot should be taught (learn) so as to complete all the given tasks with minimum effort. This planning problem results in a search tree that grows exponentially with n -- making standard graph search algorithms intractable. We address this by converting the problem into a mixed integer program that can be solved efficiently using off-the-shelf solvers with bounds on solution quality. To predict the benefit of learning, we propose a precondition prediction classifier. Given two tasks, this classifier predicts whether a skill trained on one will transfer to the other. Finally, we evaluate our approach on peg insertion and Lego stacking tasks, both in simulation and real-world, showing substantial savings in human effort." 
   authors: Shivam Vats, Oliver Kroemer and Maxim Likhachev
-  award: Outstanding Interaction Paper Finalist at ICRA 2022
+  award: <award>Outstanding Interaction Paper Finalist at ICRA 2022</award>
   bib: >
     @inproceedings{vats2022synergistic,
-      title={Synergistic scheduling of learning and allocation of tasks in human-robot teams},
+      title={Synergistic Scheduling of Learning and Allocation of Tasks in Human-robot Teams},
       author={Vats, Shivam and Kroemer, Oliver and Likhachev, Maxim},
       booktitle={2022 International Conference on Robotics and Automation (ICRA)},
       pages={2789--2795},
       year={2022},
       organization={IEEE}
     }
-  img: ../pics/2022_icra_adl.png.png
+  img: ../pics/2022_icra_adl.png
   links: 
       '[arXiv]': https://arxiv.org/abs/2203.07478
       '[Video]': https://youtu.be/FyjrkHKF1mM

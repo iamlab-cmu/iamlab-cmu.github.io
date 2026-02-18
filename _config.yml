@@ -21,10 +21,8 @@ description: Intelligent Autonomous Manipulation Lab
 ###############################################
 navbar-links:
   Home: "/"
-  Lab: "members"
-  Research:
-    - Research Areas: "research"
-    - Publications: "publications"
+  People: "members"
+  Research: "publications"
   # About Me: "aboutme"
   # Resources:
     # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"

@@ -102,26 +102,6 @@
   video_embed: null  
   tags: null
 
-- abs: "Contact-rich manipulation tasks in agriculture, such as pruning and harvesting, require robots to physically interact with tree structures and distinguish between rigid and soft contacts despite heavy occlusions and limited visual viewpoints. This paper proposes a multi-modal classification framework that fuses vibrotactile (audio) and visual sensory inputs to identify contact types—leaf, twig, trunk, or ambient—by leveraging the unique vibration signals produced upon contact alongside complementary visual features. The system is trained using data collected with a hand-held sensor probe and demonstrates zero-shot generalization to a robot-mounted probe embodiment, achieving strong multi-class classification performance. These results underscore the potential of audio-visual learning to improve semantic contact classification for robust manipulation in unstructured agricultural environments."  
-  authors: Ryan Spears and Moonyoung Lee and George Kantor and Oliver Kroemer  
-  award: null  
-  bib: >  
-    @inproceedings{spears2025audiovisualcontact,  
-      title={Audio-Visual Contact Classification for Tree Structures in Agriculture},  
-      author={Spears, Ryan and Lee, Moonyoung and Kantor, George and Kroemer, Oliver},  
-      booktitle={IEEE-RAS International Conference on Humanoid Robots (Humanoids)},  
-      year={2025},  
-      pages={760--767}  
-    }  
-  img: null  
-  links:  
-      '[arXiv]': https://arxiv.org/abs/2505.12665  
-  short_id: audiovisualcontactclassificationfortreestructures  
-  site: null  
-  title: "Audio-Visual Contact Classification for Tree Structures in Agriculture"  
-  venue: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2025"  
-  video_embed: null  
-  tags: null
 
 - abs: "Contact-rich manipulation tasks in agriculture, such as pruning and harvesting, require robots to physically interact with tree structures and distinguish between rigid and soft contacts despite heavy occlusions and limited visual viewpoints. This paper proposes a multi-modal classification framework that fuses vibrotactile (audio) and visual sensory inputs to identify contact types—leaf, twig, trunk, or ambient—by leveraging the unique vibration signals produced upon contact alongside complementary visual features. The system is trained using data collected with a hand-held sensor probe and demonstrates zero-shot generalization to a robot-mounted probe embodiment, achieving strong multi-class classification performance. These results underscore the potential of audio-visual learning to improve semantic contact classification for robust manipulation in unstructured agricultural environments."  
   authors: Ryan Spears and Moonyoung Lee and George Kantor and Oliver Kroemer  
@@ -242,7 +222,7 @@
   video_embed: null
   tags: null
 
-  - abs: "Dexterous robotic manipulation in unstructured environments can greatly benefit from hand designs that are both highly dexterous and easy to manufacture and control. This paper presents DELTAHANDS, a synergistic dexterous hand framework built using soft delta robots that are modular, reconfigurable, and cost-effective. By leveraging delta robot kinematics and actuation synergies, the framework reduces control complexity while preserving dexterity. We characterize the delta robots’ kinematics, force profiles, and workspace, and validate the design through simulation and real-world grasping and teleoperation tasks that include cloth folding, cap opening, and object arrangement. The open-source framework supports easy hand reconfiguration for various manipulation tasks."
+- abs: "Dexterous robotic manipulation in unstructured environments can greatly benefit from hand designs that are both highly dexterous and easy to manufacture and control. This paper presents DELTAHANDS, a synergistic dexterous hand framework built using soft delta robots that are modular, reconfigurable, and cost-effective. By leveraging delta robot kinematics and actuation synergies, the framework reduces control complexity while preserving dexterity. We characterize the delta robots’ kinematics, force profiles, and workspace, and validate the design through simulation and real-world grasping and teleoperation tasks that include cloth folding, cap opening, and object arrangement. The open-source framework supports easy hand reconfiguration for various manipulation tasks."
   authors: Zilin Si and Kevin Zhang and Oliver Kroemer and F. Zeynep Temel
   award: null
   bib: >

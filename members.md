@@ -84,15 +84,10 @@ carousels:
       <img class="member-photo" src="../img/members/Xinyi_Yang.jpg" alt="Xinyi Yang" />
       <a class="member-name" href="https://www.ri.cmu.edu/ri-people/xinyi-yang/">Xinyi Yang</a>
     </div>
-</div>
-
-### Undergraduate Students
-
-<div class="container-fluid">
-  <div class="row">
-    
   </div>
 </div>
+
+
 
 ## Alumni
 
@@ -116,7 +111,7 @@ carousels:
       <img class="member-photo" src="../img/members/tabitha_lee.jpg" alt="Tabitha Lee" />
       <a class="member-name" href="https://tabula-rosa.github.io/">Tabitha Lee</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/causal-robot-learning-for-manipulation/">Ph.D Thesis Jul. 2024</a>
-      (Went on to Lockheed Martin, and PostDoc at Université de Montréal and Mila)
+      (Went on to PostDoc at Montréal and Mila)
     </div>
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/shivam_vats.jpg" alt="Shivam Vats" />

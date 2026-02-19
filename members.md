@@ -58,18 +58,6 @@ carousels:
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/kevin_zhang.jpg" alt="Kevin Zhang" />
-      <a class="member-name" href="https://klz.us/">Kevin Zhang</a>
-    </div>
-    <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/saumya_saxena_.jpg" alt="Saumya Saxena" />
-      <a class="member-name" href="https://saumyasaxena.github.io/">Saumya Saxena</a>
-    </div>
-    <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/alex_lagrassa_.jpg" alt="Alex Lagrassa" />
-      <a class="member-name" href="https://sites.google.com/view/alex-lagrassa/">Alex Lagrassa</a>
-    </div>
-    <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/mark_lee_.jpg" alt="Mark Lee" />
       <a class="member-name" href="https://markmlee.github.io/">Mark Lee</a>
     </div>
@@ -80,10 +68,6 @@ carousels:
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/zilin_si_.jpg" alt="Zilin Si" />
       <a class="member-name" href="https://si-lynnn.github.io/">Zilin Si</a>
-    </div>
-    <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/sarvesh_.jpg" alt="Sarvesh Patil" />
-      <a class="member-name" href="https://servo97.github.io/">Sarvesh Patil</a>
     </div>
   </div>
 </div>
@@ -124,26 +108,44 @@ carousels:
       <img class="member-photo" src="../img/members/jacky_liang.jpg" alt="Jacky Liang" />
       <a class="member-name" href="https://www.jacky.io/">Jacky Liang</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/learning-with-structured-priors-for-robust-robot-manipulation/">Ph.D Thesis Dec. 2022</a>
-      (Now at Google Deepmind)
+      (Went on to Google Deepmind)
     </div>
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/mohit_sharma.jpg" alt="Mohit Sharma" />
       <a class="member-name" href="https://mohitsharma0690.github.io/">Mohit Sharma</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/representation-reuse-for-learning-robust-robot-manipulations/">Ph.D Thesis Feb. 2024</a>
-      (Now at Google Deepmind)
+      (Went on to Google Deepmind)
     </div>
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/tabitha_lee.jpg" alt="Tabitha Lee" />
       <a class="member-name" href="https://tabula-rosa.github.io/">Tabitha Lee</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/causal-robot-learning-for-manipulation/">Ph.D Thesis Jul. 2024</a>
-      (Now at Lockheed Martin)
+      (Went on to Lockheed Martin, and Université de Montréal and Mila)
     </div>
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/shivam_vats.jpg" alt="Shivam Vats" />
       <a class="member-name" href="https://shivamvats.com/">Shivam Vats</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/plan-to-learn-active-robot-learning-by-planning/">Ph.D Thesis Aug. 2024</a>
-      (Now at Brown)
+      (Went on to be PostDoc at Brown)
     </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="../img/members/alex_lagrassa_.jpg" alt="Alex Lagrassa" />
+      <a class="member-name" href="https://sites.google.com/view/alex-lagrassa/">Alex Lagrassa</a>
+      <a class="member-name" href="https://www.ri.cmu.edu/publications/enabling-reliable-model-based-planning-with-inaccurate-models/">Ph.D Thesis Feb. 2025</a>
+      (Went on to be Prof at Stevens Institute of Technology)
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="../img/members/kevin_zhang.jpg" alt="Kevin Zhang" />
+      <a class="member-name" href="https://klz.us/">Kevin Zhang</a>
+      <a class="member-name" href="https://www.ri.cmu.edu/publications/low-cost-multimodal-sensing-and-dexterity-for-deformable-object-manipulation/">Ph.D Thesis Feb. 2025</a>
+      (Went on to Kscale Labs)
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="../img/members/saumya_saxena_.jpg" alt="Saumya Saxena" />
+      <a class="member-name" href="https://saumyasaxena.github.io/">Saumya Saxena</a>
+      <a class="member-name" href="https://www.ri.cmu.edu/publications/learning-generalizable-robot-skills-for-dynamic-and-interactive-tasks/">Ph.D Thesis Aug. 2025</a>
+      (Went on to Boston Dynamics)
+    </div>  
   </div>
 </div>
 

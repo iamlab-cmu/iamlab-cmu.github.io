@@ -84,17 +84,13 @@ carousels:
       <img class="member-photo" src="../img/members/Xinyi_Yang.jpg" alt="Xinyi Yang" />
       <a class="member-name" href="https://www.ri.cmu.edu/ri-people/xinyi-yang/">Xinyi Yang</a>
     </div>
-
 </div>
 
 ### Undergraduate Students
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/lawrence_feng.jpeg" alt="Lawrence Feng" />
-      <a class="member-name" href="https://www.linkedin.com/in/lawrence-feng-095350249">Lawrence Feng</a>
-    </div>
+    
   </div>
 </div>
 
@@ -168,10 +164,11 @@ carousels:
 
 
 ### Undergraduate Students / Visiting Researchers
+- [Michaela Zimova](https://www.linkedin.com/in/michaela-zimova-6672882a0/) (RISS Intern Sep. 2025, University of Freiburg)
+- [Lawrence Feng](https://www.linkedin.com/in/lawrence-feng-095350249/) (CMU SCS Undergrad Dec 2024)
 - [Fabian Hahn](https://johannesfabianhahn.de/) (RISS Intern Sep. 2024, University of Hamburg)
-- [Jan-Malte Giannikos](https://de.linkedin.com/in/jan-malte-giannikos-3b5459242) (RISS Intern Aug. 2023, Bielefeld University)
+- [Jan-Malte Giannikos](https://de.linkedin.com/in/jan-malte-giannikos-3b5459242) (RISS Intern Aug. 2022 and 2023, Bielefeld University)
 - [Siddharth Girdhar](https://siddharthgir.github.io/) (CMU SCS Undergrad Dec. 2022)
-- [Jan-Malte Giannikos](https://de.linkedin.com/in/jan-malte-giannikos-3b5459242) (RISS Intern Aug. 2022, Bielefeld University)
 - [Jeff Tan](https://jefftan969.github.io/) (CMU SCS Undergrad May 2022)
 - [Vicky Zeng](https://www.linkedin.com/in/vicky-zeng-038b46297/) (CMU SCS Undergrad Oct. 2021)
 - [Sophia Wang](https://www.linkedin.com/in/sophiawang393/) (CMU SCS Undergrad May 2021)

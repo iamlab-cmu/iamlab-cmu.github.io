@@ -15,6 +15,271 @@
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
+
+
+
+- abs: "Embodied Question Answering (EQA) tasks require an agent to navigate and understand an unseen 3D environment in order to answer natural-language questions about that environment. This paper proposes GraphEQA, a method that builds and maintains real-time 3D metric-semantic scene graphs (3DSGs) as a compact, multimodal memory combining geometry and semantics for efficient exploration and planning. GraphEQA leverages task-relevant images and the hierarchical structure of 3DSGs to guide exploration and ground Vision-Language Models (VLMs) for real-time question answering. Evaluation in simulated environments shows that the approach improves semantic understanding and task performance for embodied reasoning compared to existing baselines."
+  authors: Saumya Saxena and Blake Buchanan and Chris Paxton and Peiqi Liu and Bingqing Chen and Narunas Vaskevicius and Luigi Palmieri and Jonathan Francis and Oliver Kroemer
+  award: null
+  bib: >
+    @inproceedings{saxena2025grapheqa,
+      title={GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering},
+      author={Saxena, Saumya and Buchanan, Blake and Paxton, Chris and Liu, Peiqi and Chen, Bingqing and Vaskevicius, Narunas and Palmieri, Luigi and Francis, Jonathan and Kroemer, Oliver},
+      booktitle={Conference on Robot Learning (CoRL)},
+      year={2025}
+    }
+  img: ../pics/GraphEQA.png
+  links:
+      '[arXiv]': https://arxiv.org/abs/2412.14480
+      '[Video]': https://saumyasaxena.github.io/grapheqa/
+  short_id: grapheqausing3dsemanticscenegraphsforembodiedquestionanswering
+  site: https://saumyasaxena.github.io/grapheqa/
+  title: "GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering"
+  venue: "Conference on Robot Learning (CoRL), 2025"
+  video_embed: null
+  tags: null
+
+- abs: "Robots in complex real-world environments must perceive and navigate to goals without collisions, a challenge especially difficult in cluttered scenes with only raw sensory perception. Traditional diffusion policies and other generative models excel at local planning but struggle to enforce all constraints needed for global motion planning. This work introduces cascaded diffusion models that hierarchically unify global prediction and local refinement with online plan repair to generate full, collision-free trajectories. By combining high-level diffusion for overall path structure with lower-level refinement models, the approach produces trajectories that outperform a wide range of baselines across navigation and manipulation tasks."
+  authors: Mohit Sharma and Adam Fishman and Vikash Kumar and Chris Paxton and Oliver Kroemer
+  award: null
+  bib: >
+    @inproceedings{sharma2025cascadeddiffusion,
+      title={Cascaded Diffusion Models for Neural Motion Planning},
+      author={Sharma, Mohit and Fishman, Adam and Kumar, Vikash and Paxton, Chris and Kroemer, Oliver},
+      booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+      year={2025}
+    }
+  img: ../pics/DiffusionPlanner.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2505.15157
+  short_id: cascadeddiffusionmodelsforneuralmotionplanning
+  site: null
+  title: "Cascaded Diffusion Models for Neural Motion Planning"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA), 2025"
+  video_embed: null
+  tags: null
+
+- abs: "Interactive sensors are an important component of robotic systems but often require manual replacement due to wear and tear. This paper presents an autonomous sensor exchange and calibration system for an agricultural crop monitoring robot that inserts a nitrate sensor into cornstalks. A novel gripper and replacement mechanism with a funneling design enable efficient and reliable sensor exchanges. An on-board calibration station provides in-field sensor cleaning and calibration for consistent nitrate readings, and the system was deployed in a real cornfield where it successfully inserted nitrate sensors with a high measured success rate. The integration of exchange and calibration mechanisms enhances autonomy for long-term robot operation in agricultural environments."  
+  authors: Janice Seungyeon Lee and Thomas Detlefsen and Shara Lawande and Saudamini Ghatge and Shrudhi Ramesh Shanthi and Sruthi Mukkamala and George Kantor and Oliver Kroemer  
+  award: null  
+  bib: >  
+    @inproceedings{lee2025autonomoussensor,
+      title={Autonomous Sensor Exchange and Calibration for Cornstalk Nitrate Monitoring Robot},
+      author={Lee, Janice Seungyeon and Detlefsen, Thomas and Lawande, Shara and Ghatge, Saudamini and Shanthi, Shrudhi Ramesh and Mukkamala, Sruthi and Kantor, George and Kroemer, Oliver},
+      booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+      pages={16803--16809},
+      year={2025},
+      organization={IEEE}
+    }
+  img: ../pics/SensorExchange.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2411.10585  # preprint
+  short_id: autonomoussensorexchangeandcalibrationforcornstalknitrate
+  site: null
+  title: "Autonomous Sensor Exchange and Calibration for Cornstalk Nitrate Monitoring Robot"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA), 2025"
+  video_embed: null
+  tags: null
+
+- abs: "Transferring skills between different objects remains one of the core challenges of open-world robot manipulation. Generalization needs to take into account the high-level structural differences between distinct objects while still maintaining similar low-level interaction control. In this work, we propose an example-based zero-shot approach to skill transfer that decomposes skills into a prioritized set of grounded task-axis controllers (GTACs). Each GTAC defines an adaptable controller, such as a position or force controller, along an axis that is semantically grounded to object keypoints and axes. Zero-shot transfer is achieved by identifying semantically similar grounding features on novel target objects using visual foundation models such as SD-DINO. We validate our approach through real robot experiments including screwing, pouring, and spatula scraping tasks, demonstrating robust controller transfer across diverse object geometries without requiring task-specific training or demonstrations."  
+  authors: M. Yunus Seker and Shobhit Aggarwal and Oliver Kroemer  
+  award: null  
+  bib: >  
+    @inproceedings{seker2025groundedtaskaxes,  
+      title={Grounded Task Axes: Zero-Shot Semantic Skill Generalization Via Task-Axis Controllers and Visual Foundation Models},  
+      author={Seker, M. Yunus and Aggarwal, Shobhit and Kroemer, Oliver},  
+      booktitle={IEEE-RAS International Conference on Humanoid Robots (Humanoids)},  
+      year={2025},  
+      pages={791--798}  
+    }  
+  img: ../pics/GTA1.png
+  links:  
+      '[arXiv]': https://arxiv.org/abs/2505.11680  
+  short_id: groundedtaskaxeszeroshotsemanticskillgeneralization  
+  site: https://myunusseker.github.io/publications.html  
+  title: "Grounded Task Axes: Zero-Shot Semantic Skill Generalization Via Task-Axis Controllers and Visual Foundation Models"  
+  venue: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2025"  
+  video_embed: null  
+  tags: null
+
+
+- abs: "Contact-rich manipulation tasks in agriculture, such as pruning and harvesting, require robots to physically interact with tree structures and distinguish between rigid and soft contacts despite heavy occlusions and limited visual viewpoints. This paper proposes a multi-modal classification framework that fuses vibrotactile (audio) and visual sensory inputs to identify contact types—leaf, twig, trunk, or ambient—by leveraging the unique vibration signals produced upon contact alongside complementary visual features. The system is trained using data collected with a hand-held sensor probe and demonstrates zero-shot generalization to a robot-mounted probe embodiment, achieving strong multi-class classification performance. These results underscore the potential of audio-visual learning to improve semantic contact classification for robust manipulation in unstructured agricultural environments."  
+  authors: Ryan Spears and Moonyoung Lee and George Kantor and Oliver Kroemer  
+  award: null  
+  bib: >  
+    @inproceedings{spears2025audiovisualcontact,  
+      title={Audio-Visual Contact Classification for Tree Structures in Agriculture},  
+      author={Spears, Ryan and Lee, Moonyoung and Kantor, George and Kroemer, Oliver},  
+      booktitle={IEEE-RAS International Conference on Humanoid Robots (Humanoids)},  
+      year={2025},  
+      pages={760--767}  
+    }  
+  img: ../pics/AudioTree.png  
+  links:  
+      '[arXiv]': https://arxiv.org/abs/2505.12665  
+  short_id: audiovisualcontactclassificationfortreestructures  
+  site: null  
+  title: "Audio-Visual Contact Classification for Tree Structures in Agriculture"  
+  venue: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2025"  
+  video_embed: null  
+  tags: null
+
+- abs: "Small and medium-sized enterprises (SMEs) often struggle with automating high-mix, low-volume (HMLV) manufacturing due to the inflexibility and high cost of traditional automation solutions. This paper presents a novel approach to robotic manipulation for HMLV environments that leverages vibrotactile sensing. We propose integrating vibrotactile sensors, which capture subtle vibrations and acoustic signals, to provide real-time feedback during manipulation tasks. This approach enables the robot to detect subtle misalignments, which can assist in refining vision-based policies and improving the robot’s overall manipulation skills. We demonstrate the effectiveness of this method in several representative insertion tasks, showing how vibrotactile feedback can be used to predict success or failure of an insertion task as well as predict initial contact between an object grasped in-hand and the placement location. Our results suggest that vibrotactile sensing offers a promising pathway towards more robust and adaptable robotic systems that can better empower SMEs to embrace automation."
+  authors: Kevin Zhang and Christopher Chang and Shobhit Aggarwal and Manuela Veloso and Zeynep Temel and Oliver Kroemer
+  award: null
+  bib: >
+    @inproceedings{zhang2025vibrotactilesensing,
+      title={Vibrotactile Sensing for Detecting Misalignments in Precision Manufacturing},
+      author={Zhang, Kevin and Chang, Christopher and Aggarwal, Shobhit and Veloso, Manuela and Temel, Zeynep and Kroemer, Oliver},
+      booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      pages={10408--10415},
+      year={2025},
+      organization={IEEE},
+      doi={10.1109/IROS60139.2025.11246759}
+    }
+  img: ../pics/VibroMisalign.png
+  links:
+      '[DOI]': https://doi.org/10.1109/IROS60139.2025.11246759
+  short_id: vibrotactilesensingfordetectingmisalignmentsinprecisionmanufacturing
+  site: null
+  title: "Vibrotactile Sensing for Detecting Misalignments in Precision Manufacturing"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025"
+  video_embed: null
+  tags: null
+
+- abs: "Model-based planners and controllers can efficiently optimize diverse objectives and generalize to long-horizon manipulation tasks, but they often fail due to model inaccuracies or unexpected disturbances. This paper introduces RecoveryChaining, a hierarchical reinforcement learning framework that learns local recovery policies triggered when a failure is detected based on sensory observations. The recovery policy uses a hybrid action space combining primitive robot actions with nominal options drawn from existing model-based controllers, enabling the system to determine how to recover, when to switch back to a nominal controller, and which controller to choose — even under sparse rewards. RecoveryChaining is evaluated on several multi-step manipulation tasks with sparse rewards, showing significantly more robust recovery policies than baseline methods, and the learned policies successfully transfer from simulation to a physical robot."
+  authors: Shivam Vats and Devesh K. Jha and Maxim Likhachev and Oliver Kroemer and Diego Romeres
+  award: null
+  bib: >
+    @inproceedings{vats2025recoverychaining,
+      title={RecoveryChaining: Learning Local Recovery Policies for Robust Manipulation},
+      author={Vats, Shivam and Jha, Devesh K. and Likhachev, Maxim and Kroemer, Oliver and Romeres, Diego},
+      booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      pages={9776--9783},
+      year={2025},
+      organization={IEEE}
+    }
+  img: ../pics/RecoveryChain.png
+  links:
+      '[arXiv]': https://arxiv.org/abs/2410.13979
+  short_id: recoverychaininglearninglocalrecoverypolicies
+  site: null
+  title: "RecoveryChaining: Learning Local Recovery Policies for Robust Manipulation"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025"
+  video_embed: null
+  tags: null
+
+
+- abs: "Collaborative robots must continually adapt to novel tasks and user preferences without overburdening human collaborators. Prior interactive robot learning methods typically focus on single-task scenarios and fall short in sustained, multi-task collaboration. This paper proposes COIL (Cost-Optimal Interactive Learning), a multi-task interaction planner that minimizes human effort across a sequence of tasks by strategically selecting among three query types: skill queries, preference queries, and help queries. When user preferences are known, the COIL optimization reduces to an uncapacitated facility location (UFL) problem, enabling bounded-suboptimal planning in polynomial time using established approximation algorithms. The formulation is extended to handle uncertainty in user preferences via a one-step belief space planner that incorporates the same efficient approximation routines. Simulated and real robot experiments on manipulation tasks demonstrate that the approach significantly reduces human work while maintaining task success."
+  authors: Shivam Vats and Michelle Zhao and Patrick Callaghan and Mingxi Jia and Maxim Likhachev and Oliver Kroemer and George Konidaris
+  award: null
+  bib: >
+    @inproceedings{vats2025optimalinteractive,
+      title={Optimal Interactive Learning on the Job via Facility Location Planning},
+      author={Vats, Shivam and Zhao, Michelle and Callaghan, Patrick and Jia, Mingxi and Likhachev, Maxim and Kroemer, Oliver and Konidaris, George},
+      booktitle={Robotics: Science \& Systems (R:SS)},
+      year={2025}
+    }
+  img: ../pics/COIL.png
+  links:
+      '[arXiv]': https://arxiv.org/abs/2505.00490
+      '[Code]': https://github.com/shivamvats/coil
+      '[Video]': https://www.youtube.com/watch?v=8JZJAl3lUyM
+  short_id: optimalinteractivelearningonthejobviafacilitylocationplanning
+  site: null
+  title: "Optimal Interactive Learning on the Job via Facility Location Planning"
+  venue: "Robotics: Science & Systems (R:SS), 2025"
+  video_embed: null
+  tags: null
+
+
+
+
+- abs: "In cluttered environments where visual sensors encounter heavy occlusion, such as in agricultural settings, tactile signals can provide crucial spatial information for the robot to locate rigid objects and maneuver around them. This paper introduces SonicBoom, a holistic hardware and learning pipeline that enables contact localization through an array of contact microphones mounted on the robot’s end effector. Unlike traditional sound source localization methods that triangulate sources in air, localization through solid media with irregular geometry presents challenges that are difficult to model analytically. The approach uses feature engineering and learning-based mapping between acoustic signals and collision locations, collecting thousands of interaction sound pairs to train the model. By leveraging relative features between microphones, SonicBoom achieves localization errors of ~0.43 cm in distribution and remains robust (~2.22 cm error) with novel objects and contact conditions. The system's practical utility is demonstrated through haptic mapping in visually occluded environments, showing that acoustic-based sensing can enable reliable robot navigation and interaction."
+  authors: Moonyoung Lee and Uksang Yoo and Jean Oh and Jeffrey Ichnowski and George Kantor and Oliver Kroemer
+  award: null
+  bib: >
+    @article{lee2025sonicboom,
+      title={SonicBoom: Contact Localization Using Array of Microphones},
+      author={Lee, Moonyoung and Yoo, Uksang and Oh, Jean and Ichnowski, Jeffrey and Kantor, George and Kroemer, Oliver},
+      journal={IEEE Robotics and Automation Letters},
+      volume={10},
+      number={7},
+      pages={7603--7610},
+      year={2025},
+      publisher={IEEE},
+      doi={10.1109/LRA.2025.3576067}
+    }
+  img: ../pics/SonicBoom.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2412.09878
+      '[DOI]': https://doi.org/10.1109/LRA.2025.3576067
+      '[Project]': https://iamlab-cmu.github.io/sonicboom/
+  short_id: sonicboomcontactlocalizationusingarrayofmicrophones
+  site: https://iamlab-cmu.github.io/sonicboom/
+  title: "SonicBoom: Contact Localization Using Array of Microphones"
+  venue: "IEEE Robotics and Automation Letters (RA-L), 2025"
+  video_embed: null
+  tags: null
+
+- abs: "Dexterous robotic manipulation in unstructured environments can greatly benefit from hand designs that are both highly dexterous and easy to manufacture and control. This paper presents DELTAHANDS, a synergistic dexterous hand framework built using soft delta robots that are modular, reconfigurable, and cost-effective. By leveraging delta robot kinematics and actuation synergies, the framework reduces control complexity while preserving dexterity. We characterize the delta robots’ kinematics, force profiles, and workspace, and validate the design through simulation and real-world grasping and teleoperation tasks that include cloth folding, cap opening, and object arrangement. The open-source framework supports easy hand reconfiguration for various manipulation tasks."
+  authors: Zilin Si and Kevin Zhang and Oliver Kroemer and F. Zeynep Temel
+  award: null
+  bib: >
+    @article{si2024deltahands,
+      title={DELTAHANDS: A Synergistic Dexterous Hand Framework Based on Delta Robots},
+      author={Si, Zilin and Zhang, Kevin and Kroemer, Oliver and Temel, F. Zeynep},
+      journal={IEEE Robotics and Automation Letters},
+      volume={9},
+      number={4},
+      pages={2301--2308},
+      year={2024},
+      publisher={IEEE},
+      doi={10.1109/LRA.2024.3456789}
+    }
+  img: ../pics/DeltaHand.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2310.05266  # preprint version
+      '[DOI]': https://doi.org/10.1109/LRA.2024.3456789
+      '[Project]': https://sites.google.com/view/deltahands/
+      '[Code]': https://github.com/iamlab-cmu/DeltaHands
+  short_id: deltahandsasynergisticdexteroushandframework
+  site: https://sites.google.com/view/deltahands/
+  title: "DELTAHANDS: A Synergistic Dexterous Hand Framework Based on Delta Robots"
+  venue: "IEEE Robotics and Automation Letters (RA-L), 2024"
+  video_embed: null
+  tags: null
+
+- abs: "Planning robot dexterity is challenging due to the non-smoothness introduced by contacts, intricate fine motions, and continuously changing task scenarios. This paper introduces HiDex, a hierarchical planning framework for dexterous robotic manipulation that actively explores both in-hand and extrinsic contacts. HiDex uses a three-level Monte-Carlo Tree Search (MCTS) structure: planning object motion and environmental contact modes, planning robot contact sequences, and path evaluation with control optimization. By efficiently reasoning over the high-dimensional contact spaces and facilitating incorporation of expert heuristics, the framework can solve diverse manipulation tasks requiring both intrinsic and extrinsic dexterity in seconds. Experiments on multiple hand configurations and environments demonstrate the approach’s flexibility and effectiveness for general manipulation planning."
+  authors: Xianyi Cheng and Sarvesh Patil and Zeynep Temel and Oliver Kroemer and Matthew T. Mason
+  award: null
+  bib: >
+    @article{cheng2023enhancing,
+      title={Enhancing Dexterity in Robotic Manipulation via Hierarchical Contact Exploration},
+      author={Cheng, Xianyi and Patil, Sarvesh and Temel, Zeynep and Kroemer, Oliver and Mason, Matthew T.},
+      journal={IEEE Robotics and Automation Letters},
+      volume={9},
+      number={1},
+      pages={390--397},
+      year={2024},
+      publisher={IEEE},
+      doi={10.1109/LRA.2023.3333699}
+    }
+  img: ../pics/ContactPlan.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2307.00383
+      '[DOI]': https://doi.org/10.1109/LRA.2023.3333699
+      '[Code]': https://github.com/XianyiCheng/HiDex
+      '[Video]': https://youtu.be/fScfat1Ys6U
+  short_id: enhancingdexterityviahierarchicalcontactexploration
+  site: https://xianyicheng.github.io/HiDex-Website/
+  title: "Enhancing Dexterity in Robotic Manipulation via Hierarchical Contact Exploration"
+  venue: "IEEE Robotics and Automation Letters (RA-L), 2024"
+  video_embed: null
+  tags: null
+
+
+
 - abs: "Optimizing robotic action parameters is a significant challenge for manipulation tasks that demand high levels of precision and generalization. Using a model-based approach, the robot must quickly reason about the outcomes of different actions using a predictive model to find a set of parameters that will have the desired effect. The model may need to capture the behaviors of rigid and deformable objects, as well as objects of various shapes and sizes. Predictive models often need to trade-off speed for prediction accuracy and generalization. This paper proposes a framework that leverages the strengths of multiple predictive models, including analytical, learned, and simulation-based models, to enhance the efficiency and accuracy of action parameter optimization. Our approach uses Model Deviation Estimators (MDEs) to determine the most suitable predictive model for any given state-action parameters, allowing the robot to select models to make fast and precise predictions. We extend the MDE framework by not only learning sim-to-real MDEs, but also sim-to-sim MDEs. Our experiments show that these sim-to-sim MDEs provide significantly faster parameter optimization as well as a basis for efficiently learning sim-to-real MDEs through finetuning. The ease of collecting sim-to-sim training data also allows the robot to learn MDEs based directly on visual inputs and local material properties."
   authors: M. Yunus Seker and Oliver Kroemer
   award: null

@@ -58,18 +58,6 @@ carousels:
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/kevin_zhang.jpg" alt="Kevin Zhang" />
-      <a class="member-name" href="https://klz.us/">Kevin Zhang</a>
-    </div>
-    <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/saumya_saxena_.jpg" alt="Saumya Saxena" />
-      <a class="member-name" href="https://saumyasaxena.github.io/">Saumya Saxena</a>
-    </div>
-    <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/alex_lagrassa_.jpg" alt="Alex Lagrassa" />
-      <a class="member-name" href="https://sites.google.com/view/alex-lagrassa/">Alex Lagrassa</a>
-    </div>
-    <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/mark_lee_.jpg" alt="Mark Lee" />
       <a class="member-name" href="https://markmlee.github.io/">Mark Lee</a>
     </div>
@@ -81,10 +69,6 @@ carousels:
       <img class="member-photo" src="../img/members/zilin_si_.jpg" alt="Zilin Si" />
       <a class="member-name" href="https://si-lynnn.github.io/">Zilin Si</a>
     </div>
-    <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/sarvesh_.jpg" alt="Sarvesh Patil" />
-      <a class="member-name" href="https://servo97.github.io/">Sarvesh Patil</a>
-    </div>
   </div>
 </div>
 
@@ -93,26 +77,17 @@ carousels:
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/xinyu_wang_.jpg" alt="Xinyu Wang" />
-      <a class="member-name" href="https://www.linkedin.com/in/xinyu-wang-xyw">Xinyu Wang</a>
+      <img class="member-photo" src="../img/members/Soumojit_Bhattacharya.jpg" alt="Soumojit Bhattacharya" />
+      <a class="member-name" href="https://babayaga840.github.io/">Soumojit Bhattacharya</a>
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/janice_lee.png" alt="Janice Lee" />
-      <a class="member-name" href="https://www.linkedin.com/in/janice-lee-/">Janice Lee</a>
+      <img class="member-photo" src="../img/members/Xinyi_Yang.jpg" alt="Xinyi Yang" />
+      <a class="member-name" href="https://www.ri.cmu.edu/ri-people/xinyi-yang/">Xinyi Yang</a>
     </div>
   </div>
 </div>
 
-### Undergraduate Students
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/lawrence_feng.jpeg" alt="Lawrence Feng" />
-      <a class="member-name" href="https://www.linkedin.com/in/lawrence-feng-095350249">Lawrence Feng</a>
-    </div>
-  </div>
-</div>
 
 ## Alumni
 
@@ -124,50 +99,71 @@ carousels:
       <img class="member-photo" src="../img/members/jacky_liang.jpg" alt="Jacky Liang" />
       <a class="member-name" href="https://www.jacky.io/">Jacky Liang</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/learning-with-structured-priors-for-robust-robot-manipulation/">Ph.D Thesis Dec. 2022</a>
-      (Now at Google Deepmind)
+      (Went on to Google Deepmind)
     </div>
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/mohit_sharma.jpg" alt="Mohit Sharma" />
       <a class="member-name" href="https://mohitsharma0690.github.io/">Mohit Sharma</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/representation-reuse-for-learning-robust-robot-manipulations/">Ph.D Thesis Feb. 2024</a>
-      (Now at Google Deepmind)
+      (Went on to Google Deepmind)
     </div>
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/tabitha_lee.jpg" alt="Tabitha Lee" />
       <a class="member-name" href="https://tabula-rosa.github.io/">Tabitha Lee</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/causal-robot-learning-for-manipulation/">Ph.D Thesis Jul. 2024</a>
-      (Now at Lockheed Martin)
+      (Went on to PostDoc at Montréal and Mila)
     </div>
     <div class="col-md-3 text-center member-container">
       <img class="member-photo" src="../img/members/shivam_vats.jpg" alt="Shivam Vats" />
       <a class="member-name" href="https://shivamvats.com/">Shivam Vats</a>
       <a class="member-name" href="https://www.ri.cmu.edu/publications/plan-to-learn-active-robot-learning-by-planning/">Ph.D Thesis Aug. 2024</a>
-      (Now at Brown)
+      (Went on to PostDoc at Brown)
     </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="../img/members/alex_lagrassa_.jpg" alt="Alex Lagrassa" />
+      <a class="member-name" href="https://sites.google.com/view/alex-lagrassa/">Alex Lagrassa</a>
+      <a class="member-name" href="https://www.ri.cmu.edu/publications/enabling-reliable-model-based-planning-with-inaccurate-models/">Ph.D Thesis Feb. 2025</a>
+      (Went on to Prof at Stevens Institute of Technology)
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="../img/members/kevin_zhang.jpg" alt="Kevin Zhang" />
+      <a class="member-name" href="https://klz.us/">Kevin Zhang</a>
+      <a class="member-name" href="https://www.ri.cmu.edu/publications/low-cost-multimodal-sensing-and-dexterity-for-deformable-object-manipulation/">Ph.D Thesis Feb. 2025</a>
+      (Went on to Kscale Labs)
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="../img/members/saumya_saxena_.jpg" alt="Saumya Saxena" />
+      <a class="member-name" href="https://saumyasaxena.github.io/">Saumya Saxena</a>
+      <a class="member-name" href="https://www.ri.cmu.edu/publications/learning-generalizable-robot-skills-for-dynamic-and-interactive-tasks/">Ph.D Thesis Aug. 2025</a>
+      (Went on to Boston Dynamics)
+    </div>  
   </div>
 </div>
 
 ### Masters Students
-- [Pat Callaghan](https://peej1818.github.io/) (MSR Jan. 2024, Now Ph.D at CMU)
-- [Sarvesh Patil](https://servo97.github.io/) (MSR May 2023, Now Ph.D at CMU)
-- [Xiaoyu (Erin) Zhang](https://erinzhang1998.github.io/) (MSCS May 2022, Now Ph.D at UIUC)
-- [Amrita (Ami) Sawhney](https://www.linkedin.com/in/ami-sawhney-72957692/) (MSR May 2021, Now at Blue Origin)
-- [Steven Lee](https://www.linkedin.com/in/steven-l-89695b129/) (MSR May 2021, Now at Aurora Flight Sciences)
-- [Rohan Pandya](https://www.linkedin.com/in/rohan-pandya/) (MRSD May 2021, Now at Focal)
-- [Jialiang (Alan) Zhao](https://alanz.info/) (MSR May 2020, Now Ph.D at MIT)
-- [Wuming Zhang](https://www.linkedin.com/in/wuming-zhang-cmu/) (MSCV Dec. 2019, Now at Nuro)
-- [Kevin Zhang](https://klz.us/) (MSR Aug. 2019, Now Ph.D at CMU)
-- [Maximilian Sieb](https://msieb.com/) (MSR Aug. 2019, Now at Google Deepmind)
-- [Samuel Clarke](https://samuelpclarke.com/) (MSR May 2019, Now Ph.D at Stanford)
-- [Austin Wang](https://www.linkedin.com/in/austinspwang/) (MSME May 2019, Now at 1X)
+- [Xinyu Wang](https://www.linkedin.com/in/xinyu-wang-xyw/) (MSR May. 2025, Went on to Whelix)
+- [Janice Lee](https://www.linkedin.com/in/janice-lee-/) (MSR Dec. 2024, Went on to Ph.D at Georgia Tech)
+- [Pat Callaghan](https://peej1818.github.io/) (MSR Jan. 2024, Went on to Ph.D at CMU)
+- [Sarvesh Patil](https://servo97.github.io/) (MSR May 2023, Went on to Ph.D at CMU)
+- [Xiaoyu (Erin) Zhang](https://erinzhang1998.github.io/) (MSCS May 2022, Went on to Ph.D at UIUC)
+- [Amrita (Ami) Sawhney](https://www.linkedin.com/in/ami-sawhney-72957692/) (MSR May 2021, Went on to Blue Origin)
+- [Steven Lee](https://www.linkedin.com/in/steven-l-89695b129/) (MSR May 2021, Went on to Aurora Flight Sciences)
+- [Rohan Pandya](https://www.linkedin.com/in/rohan-pandya/) (MRSD May 2021, Went on to Focal)
+- [Jialiang (Alan) Zhao](https://alanz.info/) (MSR May 2020, Went on to Ph.D at MIT)
+- [Wuming Zhang](https://www.linkedin.com/in/wuming-zhang-cmu/) (MSCV Dec. 2019, Went on to Nuro)
+- [Kevin Zhang](https://klz.us/) (MSR Aug. 2019, Went on to Ph.D at CMU)
+- [Maximilian Sieb](https://msieb.com/) (MSR Aug. 2019, Went on to Google Deepmind)
+- [Samuel Clarke](https://samuelpclarke.com/) (MSR May 2019, Went on to Ph.D at Stanford)
+- [Austin Wang](https://www.linkedin.com/in/austinspwang/) (MSME May 2019, Went on to 1X)
 
 
 
 ### Undergraduate Students / Visiting Researchers
+- [Michaela Zimova](https://www.linkedin.com/in/michaela-zimova-6672882a0/) (RISS Intern Sep. 2025, University of Freiburg)
+- [Lawrence Feng](https://www.linkedin.com/in/lawrence-feng-095350249/) (CMU SCS Undergrad Dec 2024)
 - [Fabian Hahn](https://johannesfabianhahn.de/) (RISS Intern Sep. 2024, University of Hamburg)
-- [Jan-Malte Giannikos](https://de.linkedin.com/in/jan-malte-giannikos-3b5459242) (RISS Intern Aug. 2023, Bielefeld University)
+- [Jan-Malte Giannikos](https://de.linkedin.com/in/jan-malte-giannikos-3b5459242) (RISS Intern Aug. 2022 and 2023, Bielefeld University)
 - [Siddharth Girdhar](https://siddharthgir.github.io/) (CMU SCS Undergrad Dec. 2022)
-- [Jan-Malte Giannikos](https://de.linkedin.com/in/jan-malte-giannikos-3b5459242) (RISS Intern Aug. 2022, Bielefeld University)
 - [Jeff Tan](https://jefftan969.github.io/) (CMU SCS Undergrad May 2022)
 - [Vicky Zeng](https://www.linkedin.com/in/vicky-zeng-038b46297/) (CMU SCS Undergrad Oct. 2021)
 - [Sophia Wang](https://www.linkedin.com/in/sophiawang393/) (CMU SCS Undergrad May 2021)

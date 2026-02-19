@@ -15,6 +15,98 @@
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
+
+
+
+- abs: "Embodied Question Answering (EQA) tasks require an agent to navigate and understand an unseen 3D environment in order to answer natural-language questions about that environment. This paper proposes GraphEQA, a method that builds and maintains real-time 3D metric-semantic scene graphs (3DSGs) as a compact, multimodal memory combining geometry and semantics for efficient exploration and planning. GraphEQA leverages task-relevant images and the hierarchical structure of 3DSGs to guide exploration and ground Vision-Language Models (VLMs) for real-time question answering. Evaluation in simulated environments shows that the approach improves semantic understanding and task performance for embodied reasoning compared to existing baselines."
+  authors: Saumya Saxena and Blake Buchanan and Chris Paxton and Peiqi Liu and Bingqing Chen and Narunas Vaskevicius and Luigi Palmieri and Jonathan Francis and Oliver Kroemer
+  award: null
+  bib: >
+    @inproceedings{saxena2025grapheqa,
+      title={GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering},
+      author={Saxena, Saumya and Buchanan, Blake and Paxton, Chris and Liu, Peiqi and Chen, Bingqing and Vaskevicius, Narunas and Palmieri, Luigi and Francis, Jonathan and Kroemer, Oliver},
+      booktitle={Conference on Robot Learning (CoRL)},
+      year={2025}
+    }
+  img: ../pics/GraphEQA.png
+  links:
+      '[arXiv]': https://arxiv.org/abs/2412.14480
+      '[Video]': https://saumyasaxena.github.io/grapheqa/
+  short_id: grapheqausing3dsemanticscenegraphsforembodiedquestionanswering
+  site: https://saumyasaxena.github.io/grapheqa/
+  title: "GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering"
+  venue: "Conference on Robot Learning (CoRL), 2025"
+  video_embed: null
+  tags: null
+
+- abs: "Robots in complex real-world environments must perceive and navigate to goals without collisions, a challenge especially difficult in cluttered scenes with only raw sensory perception. Traditional diffusion policies and other generative models excel at local planning but struggle to enforce all constraints needed for global motion planning. This work introduces cascaded diffusion models that hierarchically unify global prediction and local refinement with online plan repair to generate full, collision-free trajectories. By combining high-level diffusion for overall path structure with lower-level refinement models, the approach produces trajectories that outperform a wide range of baselines across navigation and manipulation tasks."
+  authors: Mohit Sharma and Adam Fishman and Vikash Kumar and Chris Paxton and Oliver Kroemer
+  award: null
+  bib: >
+    @inproceedings{sharma2025cascadeddiffusion,
+      title={Cascaded Diffusion Models for Neural Motion Planning},
+      author={Sharma, Mohit and Fishman, Adam and Kumar, Vikash and Paxton, Chris and Kroemer, Oliver},
+      booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+      year={2025}
+    }
+  img: ../pics/DiffusionPlanner.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2505.15157
+  short_id: cascadeddiffusionmodelsforneuralmotionplanning
+  site: null
+  title: "Cascaded Diffusion Models for Neural Motion Planning"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA), 2025"
+  video_embed: null
+  tags: null
+
+- abs: "Interactive sensors are an important component of robotic systems but often require manual replacement due to wear and tear. This paper presents an autonomous sensor exchange and calibration system for an agricultural crop monitoring robot that inserts a nitrate sensor into cornstalks. A novel gripper and replacement mechanism with a funneling design enable efficient and reliable sensor exchanges. An on-board calibration station provides in-field sensor cleaning and calibration for consistent nitrate readings, and the system was deployed in a real cornfield where it successfully inserted nitrate sensors with a high measured success rate. The integration of exchange and calibration mechanisms enhances autonomy for long-term robot operation in agricultural environments."  
+  authors: Janice Seungyeon Lee and Thomas Detlefsen and Shara Lawande and Saudamini Ghatge and Shrudhi Ramesh Shanthi and Sruthi Mukkamala and George Kantor and Oliver Kroemer  
+  award: null  
+  bib: >  
+    @inproceedings{lee2025autonomoussensor,
+      title={Autonomous Sensor Exchange and Calibration for Cornstalk Nitrate Monitoring Robot},
+      author={Lee, Janice Seungyeon and Detlefsen, Thomas and Lawande, Shara and Ghatge, Saudamini and Shanthi, Shrudhi Ramesh and Mukkamala, Sruthi and Kantor, George and Kroemer, Oliver},
+      booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+      pages={16803--16809},
+      year={2025},
+      organization={IEEE}
+    }
+  img: ../pics/SensorExchange.png
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2411.10585  # preprint
+  short_id: autonomoussensorexchangeandcalibrationforcornstalknitrate
+  site: null
+  title: "Autonomous Sensor Exchange and Calibration for Cornstalk Nitrate Monitoring Robot"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA), 2025"
+  video_embed: null
+  tags: null
+
+- abs: "Transferring skills between different objects remains one of the core challenges of open-world robot manipulation. Generalization needs to take into account the high-level structural differences between distinct objects while still maintaining similar low-level interaction control. In this work, we propose an example-based zero-shot approach to skill transfer that decomposes skills into a prioritized set of grounded task-axis controllers (GTACs). Each GTAC defines an adaptable controller, such as a position or force controller, along an axis that is semantically grounded to object keypoints and axes. Zero-shot transfer is achieved by identifying semantically similar grounding features on novel target objects using visual foundation models such as SD-DINO. We validate our approach through real robot experiments including screwing, pouring, and spatula scraping tasks, demonstrating robust controller transfer across diverse object geometries without requiring task-specific training or demonstrations."  
+  authors: M. Yunus Seker and Shobhit Aggarwal and Oliver Kroemer  
+  award: null  
+  bib: >  
+    @inproceedings{seker2025groundedtaskaxes,  
+      title={Grounded Task Axes: Zero-Shot Semantic Skill Generalization Via Task-Axis Controllers and Visual Foundation Models},  
+      author={Seker, M. Yunus and Aggarwal, Shobhit and Kroemer, Oliver},  
+      booktitle={IEEE-RAS International Conference on Humanoid Robots (Humanoids)},  
+      year={2025},  
+      pages={791--798}  
+    }  
+  img: ../pics/GTA1.png
+  links:  
+      '[arXiv]': https://arxiv.org/abs/2505.11680  
+  short_id: groundedtaskaxeszeroshotsemanticskillgeneralization  
+  site: https://myunusseker.github.io/publications.html  
+  title: "Grounded Task Axes: Zero-Shot Semantic Skill Generalization Via Task-Axis Controllers and Visual Foundation Models"  
+  venue: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2025"  
+  video_embed: null  
+  tags: null
+
+
+
+
+
+
 - abs: "In cluttered environments where visual sensors encounter heavy occlusion, such as in agricultural settings, tactile signals can provide crucial spatial information for the robot to locate rigid objects and maneuver around them. This paper introduces SonicBoom, a holistic hardware and learning pipeline that enables contact localization through an array of contact microphones mounted on the robot’s end effector. Unlike traditional sound source localization methods that triangulate sources in air, localization through solid media with irregular geometry presents challenges that are difficult to model analytically. The approach uses feature engineering and learning-based mapping between acoustic signals and collision locations, collecting thousands of interaction sound pairs to train the model. By leveraging relative features between microphones, SonicBoom achieves localization errors of ~0.43 cm in distribution and remains robust (~2.22 cm error) with novel objects and contact conditions. The system's practical utility is demonstrated through haptic mapping in visually occluded environments, showing that acoustic-based sensing can enable reliable robot navigation and interaction."
   authors: Moonyoung Lee and Uksang Yoo and Jean Oh and Jeffrey Ichnowski and George Kantor and Oliver Kroemer
   award: null
@@ -41,8 +133,6 @@
   venue: "IEEE Robotics and Automation Letters (RA-L), 2025"
   video_embed: null
   tags: null
-
-  
 
   - abs: "Dexterous robotic manipulation in unstructured environments can greatly benefit from hand designs that are both highly dexterous and easy to manufacture and control. This paper presents DELTAHANDS, a synergistic dexterous hand framework built using soft delta robots that are modular, reconfigurable, and cost-effective. By leveraging delta robot kinematics and actuation synergies, the framework reduces control complexity while preserving dexterity. We characterize the delta robots’ kinematics, force profiles, and workspace, and validate the design through simulation and real-world grasping and teleoperation tasks that include cloth folding, cap opening, and object arrangement. The open-source framework supports easy hand reconfiguration for various manipulation tasks."
   authors: Zilin Si and Kevin Zhang and Oliver Kroemer and F. Zeynep Temel

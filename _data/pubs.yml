@@ -102,7 +102,115 @@
   video_embed: null  
   tags: null
 
+- abs: "Contact-rich manipulation tasks in agriculture, such as pruning and harvesting, require robots to physically interact with tree structures and distinguish between rigid and soft contacts despite heavy occlusions and limited visual viewpoints. This paper proposes a multi-modal classification framework that fuses vibrotactile (audio) and visual sensory inputs to identify contact types—leaf, twig, trunk, or ambient—by leveraging the unique vibration signals produced upon contact alongside complementary visual features. The system is trained using data collected with a hand-held sensor probe and demonstrates zero-shot generalization to a robot-mounted probe embodiment, achieving strong multi-class classification performance. These results underscore the potential of audio-visual learning to improve semantic contact classification for robust manipulation in unstructured agricultural environments."  
+  authors: Ryan Spears and Moonyoung Lee and George Kantor and Oliver Kroemer  
+  award: null  
+  bib: >  
+    @inproceedings{spears2025audiovisualcontact,  
+      title={Audio-Visual Contact Classification for Tree Structures in Agriculture},  
+      author={Spears, Ryan and Lee, Moonyoung and Kantor, George and Kroemer, Oliver},  
+      booktitle={IEEE-RAS International Conference on Humanoid Robots (Humanoids)},  
+      year={2025},  
+      pages={760--767}  
+    }  
+  img: null  
+  links:  
+      '[arXiv]': https://arxiv.org/abs/2505.12665  
+  short_id: audiovisualcontactclassificationfortreestructures  
+  site: null  
+  title: "Audio-Visual Contact Classification for Tree Structures in Agriculture"  
+  venue: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2025"  
+  video_embed: null  
+  tags: null
 
+- abs: "Contact-rich manipulation tasks in agriculture, such as pruning and harvesting, require robots to physically interact with tree structures and distinguish between rigid and soft contacts despite heavy occlusions and limited visual viewpoints. This paper proposes a multi-modal classification framework that fuses vibrotactile (audio) and visual sensory inputs to identify contact types—leaf, twig, trunk, or ambient—by leveraging the unique vibration signals produced upon contact alongside complementary visual features. The system is trained using data collected with a hand-held sensor probe and demonstrates zero-shot generalization to a robot-mounted probe embodiment, achieving strong multi-class classification performance. These results underscore the potential of audio-visual learning to improve semantic contact classification for robust manipulation in unstructured agricultural environments."  
+  authors: Ryan Spears and Moonyoung Lee and George Kantor and Oliver Kroemer  
+  award: null  
+  bib: >  
+    @inproceedings{spears2025audiovisualcontact,  
+      title={Audio-Visual Contact Classification for Tree Structures in Agriculture},  
+      author={Spears, Ryan and Lee, Moonyoung and Kantor, George and Kroemer, Oliver},  
+      booktitle={IEEE-RAS International Conference on Humanoid Robots (Humanoids)},  
+      year={2025},  
+      pages={760--767}  
+    }  
+  img: ../pics/AudioTree.png  
+  links:  
+      '[arXiv]': https://arxiv.org/abs/2505.12665  
+  short_id: audiovisualcontactclassificationfortreestructures  
+  site: null  
+  title: "Audio-Visual Contact Classification for Tree Structures in Agriculture"  
+  venue: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2025"  
+  video_embed: null  
+  tags: null
+
+- abs: "Small and medium-sized enterprises (SMEs) often struggle with automating high-mix, low-volume (HMLV) manufacturing due to the inflexibility and high cost of traditional automation solutions. This paper presents a novel approach to robotic manipulation for HMLV environments that leverages vibrotactile sensing. We propose integrating vibrotactile sensors, which capture subtle vibrations and acoustic signals, to provide real-time feedback during manipulation tasks. This approach enables the robot to detect subtle misalignments, which can assist in refining vision-based policies and improving the robot’s overall manipulation skills. We demonstrate the effectiveness of this method in several representative insertion tasks, showing how vibrotactile feedback can be used to predict success or failure of an insertion task as well as predict initial contact between an object grasped in-hand and the placement location. Our results suggest that vibrotactile sensing offers a promising pathway towards more robust and adaptable robotic systems that can better empower SMEs to embrace automation."
+  authors: Kevin Zhang and Christopher Chang and Shobhit Aggarwal and Manuela Veloso and Zeynep Temel and Oliver Kroemer
+  award: null
+  bib: >
+    @inproceedings{zhang2025vibrotactilesensing,
+      title={Vibrotactile Sensing for Detecting Misalignments in Precision Manufacturing},
+      author={Zhang, Kevin and Chang, Christopher and Aggarwal, Shobhit and Veloso, Manuela and Temel, Zeynep and Kroemer, Oliver},
+      booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      pages={10408--10415},
+      year={2025},
+      organization={IEEE},
+      doi={10.1109/IROS60139.2025.11246759}
+    }
+  img: ../pics/VibroMisalign.png
+  links:
+      '[DOI]': https://doi.org/10.1109/IROS60139.2025.11246759
+  short_id: vibrotactilesensingfordetectingmisalignmentsinprecisionmanufacturing
+  site: null
+  title: "Vibrotactile Sensing for Detecting Misalignments in Precision Manufacturing"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025"
+  video_embed: null
+  tags: null
+
+- abs: "Model-based planners and controllers can efficiently optimize diverse objectives and generalize to long-horizon manipulation tasks, but they often fail due to model inaccuracies or unexpected disturbances. This paper introduces RecoveryChaining, a hierarchical reinforcement learning framework that learns local recovery policies triggered when a failure is detected based on sensory observations. The recovery policy uses a hybrid action space combining primitive robot actions with nominal options drawn from existing model-based controllers, enabling the system to determine how to recover, when to switch back to a nominal controller, and which controller to choose — even under sparse rewards. RecoveryChaining is evaluated on several multi-step manipulation tasks with sparse rewards, showing significantly more robust recovery policies than baseline methods, and the learned policies successfully transfer from simulation to a physical robot."
+  authors: Shivam Vats and Devesh K. Jha and Maxim Likhachev and Oliver Kroemer and Diego Romeres
+  award: null
+  bib: >
+    @inproceedings{vats2025recoverychaining,
+      title={RecoveryChaining: Learning Local Recovery Policies for Robust Manipulation},
+      author={Vats, Shivam and Jha, Devesh K. and Likhachev, Maxim and Kroemer, Oliver and Romeres, Diego},
+      booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      pages={9776--9783},
+      year={2025},
+      organization={IEEE}
+    }
+  img: ../pics/RecoveryChain.png
+  links:
+      '[arXiv]': https://arxiv.org/abs/2410.13979
+  short_id: recoverychaininglearninglocalrecoverypolicies
+  site: null
+  title: "RecoveryChaining: Learning Local Recovery Policies for Robust Manipulation"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025"
+  video_embed: null
+  tags: null
+
+
+- abs: "Collaborative robots must continually adapt to novel tasks and user preferences without overburdening human collaborators. Prior interactive robot learning methods typically focus on single-task scenarios and fall short in sustained, multi-task collaboration. This paper proposes COIL (Cost-Optimal Interactive Learning), a multi-task interaction planner that minimizes human effort across a sequence of tasks by strategically selecting among three query types: skill queries, preference queries, and help queries. When user preferences are known, the COIL optimization reduces to an uncapacitated facility location (UFL) problem, enabling bounded-suboptimal planning in polynomial time using established approximation algorithms. The formulation is extended to handle uncertainty in user preferences via a one-step belief space planner that incorporates the same efficient approximation routines. Simulated and real robot experiments on manipulation tasks demonstrate that the approach significantly reduces human work while maintaining task success."
+  authors: Shivam Vats and Michelle Zhao and Patrick Callaghan and Mingxi Jia and Maxim Likhachev and Oliver Kroemer and George Konidaris
+  award: null
+  bib: >
+    @inproceedings{vats2025optimalinteractive,
+      title={Optimal Interactive Learning on the Job via Facility Location Planning},
+      author={Vats, Shivam and Zhao, Michelle and Callaghan, Patrick and Jia, Mingxi and Likhachev, Maxim and Kroemer, Oliver and Konidaris, George},
+      booktitle={Robotics: Science \& Systems (R:SS)},
+      year={2025}
+    }
+  img: ../pics/COIL.png
+  links:
+      '[arXiv]': https://arxiv.org/abs/2505.00490
+      '[Code]': https://github.com/shivamvats/coil
+      '[Video]': https://www.youtube.com/watch?v=8JZJAl3lUyM
+  short_id: optimalinteractivelearningonthejobviafacilitylocationplanning
+  site: null
+  title: "Optimal Interactive Learning on the Job via Facility Location Planning"
+  venue: "Robotics: Science & Systems (R:SS), 2025"
+  video_embed: null
+  tags: null
 
 
 

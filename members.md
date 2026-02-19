@@ -32,7 +32,7 @@ carousels:
 }
 .member-container {
   margin-bottom: 30px;
-  height: 220px; /* Adjust this value as needed */
+  min-height: 300px;
 }
 .member-name {
   display: block;
